@@ -1370,8 +1370,8 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
-  },
-  "0x445": {
+  }, 
+   "0x445": {
     "BMS_Tractive_System_Power": {
       "type": "Int",
       "startbyte": 0,
@@ -1391,8 +1391,8 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
-  },
+    }     
+  }, 
   "0x44A": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
