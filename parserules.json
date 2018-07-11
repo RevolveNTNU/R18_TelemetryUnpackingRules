@@ -3624,7 +3624,7 @@
     },
     "DV_Actuators_KERS": {
       "type": "Uint",
-      "startbyte": 4,
+      "startbyte": 2,
       "length": 2,
       "factor": 0.001,
       "displayname": "",
