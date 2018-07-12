@@ -3635,7 +3635,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x512": {
+  "0x511": {
     "DV_Actuators_Throttle_setpoint": {
       "type": "Uint",
       "startbyte": 0,
@@ -3679,7 +3679,7 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
+    },
     "DV_Actuators_Steering_EPOS_state": {
       "type": "Uint",
       "startbyte": 1,
@@ -3689,7 +3689,7 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
+    },
     "DV_Actuators_Steering_Operating_mode": {
       "type": "Uint",
       "startbyte": 2,
@@ -3699,21 +3699,11 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
+    },
     "DV_Actuators_Steering_Increment_setpoint": {
       "type": "Int",
       "startbyte": 4,
       "length": 4,
-      "factor": 1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
-"DV_Actuators_Steering_NMT_state": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 1,
       "factor": 1,
       "displayname": "",
       "unit": "",
