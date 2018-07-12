@@ -2931,6 +2931,30 @@
       "expectedmax": 0.0
     }
   },
+  "0x502": {
+      "DV_System_Status": {
+        "type": "Uint",
+        "startbyte": 0,
+        "length": 8,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+ "0x525": {
+      "ACU_Status": {
+        "type": "Uint",
+        "startbyte": 0,
+        "length": 2,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
   "0x560": {
     "INS_DV_Roll_angle": {
       "type": "Float",
