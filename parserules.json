@@ -4597,7 +4597,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
-  },	
+  },
   "0x627": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
@@ -4628,6 +4628,30 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    }
+  },
+  "0x628": {
+    "BMS_Tractive_System_Voltage_Transient": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x629": {
+      "AMS_VCU_Soft_Overcurrent": {
+        "type": "Uint",
+        "startbyte": 0,
+        "length": 2,
+        "factor": 0.1,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
     }
   },
   "0x6F0": {
