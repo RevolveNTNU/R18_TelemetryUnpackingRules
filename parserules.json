@@ -4564,7 +4564,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x626": {
+  "0x625": {
     "BMS_Tractive_System_Power": {
       "type": "Int",
       "startbyte": 0,
@@ -4586,7 +4586,7 @@
       "expectedmax": 0.0
     }
   },
-    "0x625": {
+    "0x626": {
     "BMS_Coloumb_count": {
       "type": "Int",
       "startbyte": 2,
