@@ -2935,7 +2935,7 @@
       "DV_System_Status": {
         "type": "Uint",
         "startbyte": 0,
-        "length": 8,
+        "length": 2,
         "factor": 1.0,
         "displayname": "",
         "unit": "",
