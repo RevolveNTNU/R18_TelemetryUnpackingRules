@@ -4632,7 +4632,7 @@
   },
   "0x628": {
     "BMS_Tractive_System_Voltage_Transient": {
-      "type": "Int",
+      "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.01,
