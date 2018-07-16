@@ -2098,7 +2098,7 @@
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01,
+      "factor": 1,
       "displayname": "Kp_Powerlimiting",
       "unit": "",
       "expectedmin": 0,
