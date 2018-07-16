@@ -2103,6 +2103,26 @@
       "unit": "",
       "expectedmin": 0,
       "expectedmax": 30
+    },
+    "VCU_TV_Powerlim_Alpha": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.001,
+      "displayname": "Alpha_Powerlimiting",
+      "unit": "",
+      "expectedmin": 0,
+      "expectedmax": 1
+    },
+    "VCU_TV_Powerlim_Fail": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 1,
+      "displayname": "Fail_Powerlimiting",
+      "unit": "",
+      "expectedmin": 0,
+      "expectedmax": 1
     }
   },
   "0x3DC": {
