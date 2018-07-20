@@ -2168,48 +2168,6 @@
     }
   },
  "0x3DD": {
-    "VCU_TV_Efficiency_FL": {
-      "type": "Int",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 0.01,
-      "displayname": "Efficiency Torque  FL",
-      "unit": "Nm",
-      "expectedmin": -21.5,
-      "expectedmax": 21.5
-    },
-    "VCU_TV_Efficiency_FR": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 0.01,
-      "displayname": "Efficiency Torque FR",
-      "unit": "Nm",
-      "expectedmin": -21.5,
-      "expectedmax": 21.5
-    },
-    "VCU_TV_Efficiency_RL": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 0.01,
-      "displayname": "Efficiency Torque  RL",
-      "unit": "Nm",
-      "expectedmin": -21.5,
-      "expectedmax": 21.5
-    },
-    "VCU_TV_Efficiency_RR": {
-      "type": "Int",
-      "startbyte": 6,
-      "length": 2,
-      "factor": 0.01,
-      "displayname": "Efficiency Torque RR",
-      "unit": "Nm",
-      "expectedmin": -21.5,
-      "expectedmax": 21.5
-    }
-  },
- "0x3DD": {
     "VCU_TV_Torque_Efficiency_FL": {
       "type": "Int",
       "startbyte": 0,
@@ -8007,5 +7965,5 @@
       "expectedmin": 0.0,
       "expectedmax": 100
     }
-}
+  }
 }
