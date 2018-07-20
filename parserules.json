@@ -4616,6 +4616,16 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    },
+    "BMS_SOC_from_lut": {
+      "type": "Uint",
+      "startbyte": 3,
+      "length": 1,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x627": {
@@ -7985,5 +7995,17 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
-  }
+  },
+  "0x693": {
+    "GLVBMS_COLOMB_COUNT": {
+      "type": "Uint",
+      "startbyte": 3,
+      "length": 1,
+      "factor": 1,
+      "displayname": "SOC count from lut",
+      "unit": "#",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
+}
 }
