@@ -4643,7 +4643,7 @@
     }
   },
   "0x6F0": {
-    "GLV_Cell_Voltage_0": {
+    "GLVBMS_Cell_Voltage_0": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4653,7 +4653,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Voltage_1": {
+    "GLVBMS_Cell_Voltage_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
@@ -4663,7 +4663,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Voltage_2": {
+    "GLVBMS_Cell_Voltage_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
@@ -4673,7 +4673,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Voltage_3": {
+    "GLVBMS_Cell_Voltage_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4685,7 +4685,7 @@
     }
   },
   "0x6F1": {
-    "GLV_Cell_Voltage_4": {
+    "GLVBMS_Cell_Voltage_4": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4695,7 +4695,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Voltage_5": {
+    "GLVBMS_Cell_Voltage_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
@@ -4707,7 +4707,7 @@
     }
   },
   "0x6E0": {
-    "GLV_Cell_Temperature_0": {
+    "GLVBMS_Cell_Temperature_0": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4717,7 +4717,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Temperature_1": {
+    "GLVBMS_Cell_Temperature_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
@@ -4727,7 +4727,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Temperature_2": {
+    "GLVBMS_Cell_Temperature_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
@@ -4737,7 +4737,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Cell_Temperature_3": {
+    "GLVBMS_Cell_Temperature_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4749,7 +4749,7 @@
     }
   },
   "0x6E1": {
-    "GLV_Cell_Temperature_4": {
+    "GLVBMS_Cell_Temperature_4": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4761,7 +4761,7 @@
     }
   },
   "0x465": {
-    "GLV_Min_Cell_Voltage": {
+    "GLVBMS_Min_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4771,7 +4771,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Max_Cell_Voltage": {
+    "GLVBMS_Max_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
@@ -4781,7 +4781,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Tot_Cell_Voltage": {
+    "GLVBMS_Tot_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 4,
       "length": 4,
@@ -4793,7 +4793,7 @@
     }
   },
   "0x466": {
-    "GLV_Min_Cell_Temperature": {
+    "GLVBMS_Min_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -4803,7 +4803,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Max_Cell_Temperature": {
+    "GLVBMS_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
@@ -4815,7 +4815,7 @@
     }
   },
   "0x467": {
-    "GLV_State_of_Charge": {
+    "GLVBMS_State_of_Charge": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -4825,7 +4825,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "GLV_Battery_Charge_Capacity": {
+    "GLVBMS_Battery_Charge_Capacity": {
       "type": "Uint",
       "startbyte": 1,
       "length": 4,
