@@ -4631,7 +4631,7 @@
     }
   },
   "0x629": {
-      "AMS_VCU_Soft_Overcurrent": {
+      "BMS_VCU_Soft_Overcurrent": {
         "type": "Uint",
         "startbyte": 0,
         "length": 2,
