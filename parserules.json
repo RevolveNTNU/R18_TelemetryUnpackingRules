@@ -925,6 +925,28 @@
       "factor": 1.0
     }
   },
+  "0x41C": {
+    "ADC_FR_EBS_pressure": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "ADC_FR_EBS_counterpressure": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x45D": {
     "ECU_Soft_BSPD_status": {
       "type": "Uint",
