@@ -4566,10 +4566,10 @@
   },
     "0x626": {
     "BMS_Coloumb_count": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 0.1,
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 0.001,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
@@ -4577,8 +4577,8 @@
     },
     "BMS_SOC_from_lut": {
       "type": "Uint",
-      "startbyte": 3,
-      "length": 1,
+      "startbyte": 4,
+      "length": 2,
       "factor": 0.1,
       "displayname": "",
       "unit": "",
@@ -7957,7 +7957,7 @@
   "0x693": {
     "GLVBMS_COLOMB_COUNT": {
       "type": "Uint",
-      "startbyte": 3,
+      "startbyte": 4,
       "length": 1,
       "factor": 1,
       "displayname": "SOC count from lut",
