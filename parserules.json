@@ -5009,7 +5009,7 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 4,
-      "factor": 1000.0,
+      "factor": 0.001,
       "displayname": "IMD_resistance",
       "unit": "kOhm",
       "expectedmin": 0.0,
