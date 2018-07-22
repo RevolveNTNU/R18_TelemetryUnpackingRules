@@ -5004,6 +5004,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x492": {
+    "BMS_IMD_Resistance": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1000.0,
+      "displayname": "IMD_resistance",
+      "unit": "kOhm",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x4C0": {
     "Alive_message": {
       "type": "Uint",
