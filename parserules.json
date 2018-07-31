@@ -1975,6 +1975,7 @@
 			"expectedmax": 0.0
 		}
 	},
+	
 	"0x3E1": {
 		"VCU_FZ_FL": {
 			"type": "Uint",
@@ -3631,6 +3632,18 @@
 			"expectedmax": 0.0
 		}
 	},
+	"0x504": {
+		"DV_System_Status": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 8,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
 	"0x510": {
 		"DV_Actuators_Steering_setpoint": {
 			"type": "Float",
@@ -3712,6 +3725,30 @@
 			"type": "Int",
 			"startbyte": 4,
 			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
+	"0x525": {
+		"ACU_Status": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 8,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
+	"0x526": {
+		"ACU_Sensor_Status": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 8,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
