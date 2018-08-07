@@ -4794,6 +4794,16 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    },
+    "GLVBMS_Cell_Temperature_5": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x465": {
