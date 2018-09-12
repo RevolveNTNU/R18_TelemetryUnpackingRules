@@ -8023,5 +8023,133 @@
       "expectedmin": 0.0,
       "expectedmax": 100
     }
+  },
+  "0x270": {
+    "Simian_data_mechanical": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 0.01,
+      "displayname": "Encoder Angle",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_mechanical": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1,
+      "displayname": "Speed",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
+  },
+  "0x271": {
+    "Simian_data_electrical": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Current A",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_electrical": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Current B",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
+  },
+  "0x296": {
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Reg_q integrator",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Reg_d integrator",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Reg_q last input",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Reg_d last input",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
+  },
+  "0x297": {
+    "Simian_data_ARM_PID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Current_Q_Controller K_p",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Current_Q_Controller K_i",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Current_D_Controller K_p",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_PID": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "Current_Q_Controller K_i",
+      "unit": "RPM",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
   }
 }
