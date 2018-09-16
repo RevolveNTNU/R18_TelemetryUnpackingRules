@@ -3401,6 +3401,48 @@
 		"expectedmax": 80.0
     }
   },
+  "0x433": {
+   "SBS_RES_strain_gauge_SG11": {
+     "type": "Int",
+     "startbyte": 0,
+     "length": 2,
+     "factor": 0.01,
+     "displayname": "",
+     "unit": "",
+     "expectedmin": 0.0,
+     "expectedmax": 80.0
+   },
+   "SBS_RES_strain_gauge_SG12": {
+     "type": "Int",
+     "startbyte": 2,
+     "length": 2,
+     "factor": 0.01,
+     "displayname": "",
+     "unit": "",
+     "expectedmin": 0.0,
+     "expectedmax": 80.0
+   },
+   "SBS_RES_strain_gauge_SG13": {
+     "type": "Int",
+     "startbyte": 4,
+     "length": 2,
+     "factor": 0.01,
+     "displayname": "",
+     "unit": "",
+     "expectedmin": 0.0,
+     "expectedmax": 80.0
+   },
+   "SBS_RES_strain_gauge_SG21": {
+     "type": "Int",
+     "startbyte": 6,
+     "length": 2,
+     "factor": 0.01,
+     "displayname": "",
+     "unit": "",
+     "expectedmin": 0.0,
+     "expectedmax": 80.0
+   }
+ },
   "0x604": {
     "Tire_temp_FL_ch_1": {
       "type": "Uint",
