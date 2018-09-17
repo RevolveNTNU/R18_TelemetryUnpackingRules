@@ -320,7 +320,7 @@
   "0x200": {
     "Simian_current_a": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -330,7 +330,7 @@
     },
     "Simian_current_b": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -340,7 +340,7 @@
     },
     "Simian_current_d": {
       "type": "Int",
-      "startbyte": 5,
+      "startbyte": 4,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -350,7 +350,7 @@
     },
     "Simian_current_q": {
       "type": "Int",
-      "startbyte": 7,
+      "startbyte": 6,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -362,7 +362,7 @@
   "0x201": {
     "Simian_current_dc": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -372,7 +372,17 @@
     },
     "Simian_voltage_dc": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_voltage_dc_unused": {
+      "type": "Int",
+      "startbyte": 4,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -384,7 +394,7 @@
   "0x202": {
     "Simian_speed_rpm": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 1.0,
       "displayname": "",
@@ -394,7 +404,7 @@
     },
     "Simian_speed_max_rpm": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
       "length": 2,
       "factor": 1.0,
       "displayname": "",
@@ -404,7 +414,17 @@
     },
     "Simian_speed_min_rpm": {
       "type": "Int",
-      "startbyte": 5,
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_speed_unused": {
+      "type": "Int",
+      "startbyte": 4,
       "length": 2,
       "factor": 1.0,
       "displayname": "",
@@ -416,7 +436,7 @@
   "0x203": {
     "Simian_current_a_rms": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -426,7 +446,17 @@
     },
     "Simian_current_b_rms": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_current_unused": {
+      "type": "Int",
+      "startbyte": 4,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -786,7 +816,7 @@
   "0x294": {
     "Simian_voltage_d": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -796,7 +826,7 @@
     },
     "Simian_voltage_q": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -806,7 +836,7 @@
     },
     "Simian_voltage_a": {
       "type": "Int",
-      "startbyte": 5,
+      "startbyte": 4,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -816,7 +846,7 @@
     },
     "Simian_voltage_b": {
       "type": "Int",
-      "startbyte": 7,
+      "startbyte": 6,
       "length": 2,
       "factor": 0.1,
       "displayname": "",
@@ -826,12 +856,42 @@
     }
   },
   "0x295": {
-    "Simian_torque_request": {
+    "Simian_div_msg_0": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.01,
-      "displayname": "",
+      "displayname": "setpoint_q",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_div_msg_1": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Kp",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_div_msg_2": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "unused",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_div_msg_3": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "DC_voltage",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
@@ -8044,6 +8104,16 @@
       "unit": "RPM",
       "expectedmin": 0.0,
       "expectedmax": 100
+    },
+    "Simian_data_mechanical_Speed_unused": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
     }
   },
   "0x272": {
@@ -8061,6 +8131,16 @@
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
+      "factor": 0.1,
+      "displayname": "Current B",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_data_electrical_unused": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 4,
       "factor": 0.1,
       "displayname": "Current B",
       "unit": "",
@@ -8153,9 +8233,19 @@
     }
   },
   "0x273": {
-    "Simian_status_vector": {
+    "Simian_status_vector_sector_0": {
       "type": "Uint",
       "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "Simian status vector",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    },
+    "Simian_status_vector_sector_1": {
+      "type": "Uint",
+      "startbyte": 4,
       "length": 4,
       "factor": 1,
       "displayname": "Simian status vector",
