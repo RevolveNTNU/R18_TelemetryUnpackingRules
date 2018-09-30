@@ -318,7 +318,7 @@
     }
   },
   "0x200": {
-    "Simian_current_a": {
+    "Simian_current_d": {
       "type": "Int",
       "startbyte": 0,
       "length": 2,
@@ -328,7 +328,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_current_b": {
+    "Simian_current_q": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
@@ -338,7 +338,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_current_d": {
+    "Simian_current_a": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
@@ -348,7 +348,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_current_q": {
+    "Simian_current_c": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
@@ -814,7 +814,7 @@
     }
   },
   "0x294": {
-    "Simian_voltage_d": {
+    "Simian_voltage_q": {
       "type": "Int",
       "startbyte": 0,
       "length": 2,
@@ -824,7 +824,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_voltage_q": {
+    "Simian_voltage_d": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
@@ -876,12 +876,12 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_div_msg_2": {
+    "Simian_div_msg_3": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1,
-      "displayname": "unused",
+      "displayname": "voltage_dc",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
@@ -8096,7 +8096,7 @@
       "expectedmax": 100
     },
     "Simian_data_mechanical_Speed": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 4,
       "length": 2,
       "factor": 1,
@@ -8118,7 +8118,7 @@
   },
   "0x272": {
     "Simian_data_electrical_Current_A": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1,
@@ -8128,7 +8128,7 @@
       "expectedmax": 100
     },
     "Simian_data_electrical_Current_B": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1,
@@ -8150,7 +8150,7 @@
   },
   "0x296": {
     "Simian_data_PID_Reg_q_integrator": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1,
@@ -8160,7 +8160,7 @@
       "expectedmax": 100
     },
     "Simian_data_PID_Reg_d_integrator": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1,
@@ -8170,7 +8170,7 @@
       "expectedmax": 100
     },
     "Simian_data_PID_Reg_q_last_input": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1,
@@ -8180,7 +8180,7 @@
       "expectedmax": 100
     },
     "Simian_data_PID_Reg_d_last_input": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 6,
       "length": 2,
       "factor": 0.1,
