@@ -8192,7 +8192,7 @@
   },
   "0x297": {
     "Simian_data_ARM_PID_Current_Q_Controller_K_p": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 0,
       "length": 2,
       "factor": 0.01,
@@ -8202,30 +8202,30 @@
       "expectedmax": 100
     },
     "Simian_data_ARM_PID_Current_Q_Controller_K_i": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1,
+      "factor": 0.01,
       "displayname": "Current_Q_Controller K_i",
       "unit": "RPM",
       "expectedmin": 0.0,
       "expectedmax": 100
     },
     "Simian_data_ARM_PID_Current_D_Controller_K_p": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1,
+      "factor": 0.01,
       "displayname": "Current_D_Controller K_p",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 100
     },
     "Simian_data_ARM_PID_Current_D_Controller_K_i": {
-      "type": "Uint",
+      "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1,
+      "factor": 0.01,
       "displayname": "Current_Q_Controller K_i",
       "unit": "RPM",
       "expectedmin": 0.0,
