@@ -370,11 +370,11 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_voltage_dc": {
+    "Simian_motor_temp": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1,
+      "factor": 1,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
@@ -881,7 +881,7 @@
       "startbyte": 4,
       "length": 2,
       "factor": 0.1,
-      "displayname": "voltage_dc",
+      "displayname": "unused",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
