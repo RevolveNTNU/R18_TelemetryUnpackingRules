@@ -8233,7 +8233,7 @@
     }
   },
   "0x273": {
-    "Simian_status_vector_sector_0": {
+    "R16_STATUS_ID": {
       "type": "Uint",
       "startbyte": 0,
       "length": 4,
