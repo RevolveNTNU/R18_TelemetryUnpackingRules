@@ -5185,6 +5185,16 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    },
+    "SOCTEST_Filter_time": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   }
 }
