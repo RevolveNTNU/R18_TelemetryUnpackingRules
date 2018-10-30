@@ -1,0 +1,1134 @@
+{
+  "0x00A": {
+    "F1_time": {
+      "type": "float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_lapTime": {
+      "type": "float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_lapDistance": {
+      "type": "float",
+      "startbyte": 8,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_totalDistance": {
+      "type": "float",
+      "startbyte": 12,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_posX": {
+      "type": "float",
+      "startbyte": 16,
+      "length": 4,
+      "factor": -1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_posY": {
+      "type": "float",
+      "startbyte": 20,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_posZ": {
+      "type": "float",
+      "startbyte": 24,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_speedkmh": {
+      "type": "float",
+      "startbyte": 28,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_vX": {
+      "type": "float",
+      "startbyte": 32,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_vY": {
+      "type": "float",
+      "startbyte": 36,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_vZ": {
+      "type": "float",
+      "startbyte": 40,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_xR": {
+      "type": "float",
+      "startbyte": 44,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_yR": {
+      "type": "float",
+      "startbyte": 48,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_zR": {
+      "type": "float",
+      "startbyte": 52,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_xD": {
+      "type": "float",
+      "startbyte": 56,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_yD": {
+      "type": "float",
+      "startbyte": 60,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_zD": {
+      "type": "float",
+      "startbyte": 64,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_pos_RL": {
+      "type": "float",
+      "startbyte": 68,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_pos_RR": {
+      "type": "float",
+      "startbyte": 72,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_pos_FL": {
+      "type": "float",
+      "startbyte": 76,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_pos_FR": {
+      "type": "float",
+      "startbyte": 80,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_vel_RL": {
+      "type": "float",
+      "startbyte": 84,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_vel_RR": {
+      "type": "float",
+      "startbyte": 88,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_vel_FL": {
+      "type": "float",
+      "startbyte": 92,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_vel_FR": {
+      "type": "float",
+      "startbyte": 96,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_wheelSpeed_RL": {
+      "type": "float",
+      "startbyte": 100,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_wheelSpeed_RR": {
+      "type": "float",
+      "startbyte": 104,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_wheelSpeed_FL": {
+      "type": "float",
+      "startbyte": 108,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_wheelSpeed_FR": {
+      "type": "float",
+      "startbyte": 112,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_throttle": {
+      "type": "float",
+      "startbyte": 116,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_steer": {
+      "type": "float",
+      "startbyte": 120,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_brake": {
+      "type": "float",
+      "startbyte": 124,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_clutch": {
+      "type": "float",
+      "startbyte": 128,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_gear": {
+      "type": "float",
+      "startbyte": 132,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_gforce_lat": {
+      "type": "float",
+      "startbyte": 136,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_lap": {
+      "type": "float",
+      "startbyte": 144,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_engineRate": {
+      "type": "float",
+      "startbyte": 148,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_race_position": {
+      "type": "float",
+      "startbyte": 156,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_kers_level": {
+      "type": "float",
+      "startbyte": 160,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_drs": {
+      "type": "float",
+      "startbyte": 168,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_traction_control": {
+      "type": "float",
+      "startbyte": 172,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_abs": {
+      "type": "float",
+      "startbyte": 176,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_fuel_in_tank": {
+      "type": "float",
+      "startbyte": 180,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_fuel_capacity": {
+      "type": "float",
+      "startbyte": 184,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_in_pits": {
+      "type": "float",
+      "startbyte": 188,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_sector": {
+      "type": "float",
+      "startbyte": 192,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_sector1_time": {
+      "type": "float",
+      "startbyte": 196,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_sector2_time": {
+      "type": "float",
+      "startbyte": 200,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_brake_temp_RL": {
+      "type": "float",
+      "startbyte": 204,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_brake_temp_RR": {
+      "type": "float",
+      "startbyte": 208,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_brake_temp_FL": {
+      "type": "float",
+      "startbyte": 212,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_brake_temp_FR": {
+      "type": "float",
+      "startbyte": 216,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_pressure_RL": {
+      "type": "float",
+      "startbyte": 220,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_pressure_RR": {
+      "type": "float",
+      "startbyte": 224,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_pressure_FL": {
+      "type": "float",
+      "startbyte": 228,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_pressure_FR": {
+      "type": "float",
+      "startbyte": 232,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_team_info": {
+      "type": "float",
+      "startbyte": 236,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_total_laps": {
+      "type": "float",
+      "startbyte": 240,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_track_size": {
+      "type": "float",
+      "startbyte": 244,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_last_lap_time": {
+      "type": "float",
+      "startbyte": 248,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_max_rpm": {
+      "type": "float",
+      "startbyte": 252,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_idle_rpm": {
+      "type": "float",
+      "startbyte": 256,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_max_gears": {
+      "type": "float",
+      "startbyte": 260,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_session_type": {
+      "type": "float",
+      "startbyte": 264,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_drs_allowed": {
+      "type": "float",
+      "startbyte": 268,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_track_number": {
+      "type": "float",
+      "startbyte": 272,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_FIA_flags": {
+      "type": "float",
+      "startbyte": 276,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_era": {
+      "type": "float",
+      "startbyte": 280,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_engine_temp": {
+      "type": "float",
+      "startbyte": 284,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_gforce_vert": {
+      "type": "float",
+      "startbyte": 288,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_vel_x": {
+      "type": "float",
+      "startbyte": 292,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_vel_y": {
+      "type": "float",
+      "startbyte": 296,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_vel_z": {
+      "type": "float",
+      "startbyte": 300,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_temp_RL": {
+      "type": "Uint",
+      "startbyte": 304,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_temp_RR": {
+      "type": "Uint",
+      "startbyte": 305,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_temp_FL": {
+      "type": "Uint",
+      "startbyte": 306,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_temp_FR": {
+      "type": "Uint",
+      "startbyte": 307,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_wear_RL": {
+      "type": "Uint",
+      "startbyte": 308,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_wear_RR": {
+      "type": "Uint",
+      "startbyte": 309,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_wear_FL": {
+      "type": "Uint",
+      "startbyte": 310,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_wear_FR": {
+      "type": "Uint",
+      "startbyte": 311,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_compound": {
+      "type": "Uint",
+      "startbyte": 312,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_front_brake_bias": {
+      "type": "Uint",
+      "startbyte": 313,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_fuel_mix": {
+      "type": "Uint",
+      "startbyte": 314,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_lap_invalid": {
+      "type": "Uint",
+      "startbyte": 315,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_damage_FL": {
+      "type": "Uint",
+      "startbyte": 316,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_damage_FR": {
+      "type": "Uint",
+      "startbyte": 317,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_damage_RL": {
+      "type": "Uint",
+      "startbyte": 318,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_tyre_damage_RR": {
+      "type": "Uint",
+      "startbyte": 319,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_front_left_wing_damage": {
+      "type": "Uint",
+      "startbyte": 320,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_front_right_wing_damage": {
+      "type": "Uint",
+      "startbyte": 321,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_rear_wing_damage": {
+      "type": "Uint",
+      "startbyte": 322,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_engine_damage": {
+      "type": "Uint",
+      "startbyte": 323,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_gear_box_damage": {
+      "type": "Uint",
+      "startbyte": 324,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_exhaust_damage": {
+      "type": "Uint",
+      "startbyte": 325,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_pit_limiter_status": {
+      "type": "Uint",
+      "startbyte": 326,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_pit_speed_limit": {
+      "type": "Uint",
+      "startbyte": 327,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_session_time_left": {
+      "type": "float",
+      "startbyte": 328,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_rev_lights_percent": {
+      "type": "Uint",
+      "startbyte": 332,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_is_spectating": {
+      "type": "Uint",
+      "startbyte": 333,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_yaw": {
+      "type": "float",
+      "startbyte": 1237,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_pitch": {
+      "type": "float",
+      "startbyte": 1241,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_roll": {
+      "type": "float",
+      "startbyte": 1245,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_x_local_velocity": {
+      "type": "float",
+      "startbyte": 1249,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_y_local_velocity": {
+      "type": "float",
+      "startbyte": 1253,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_z_local_velocity": {
+      "type": "float",
+      "startbyte": 1257,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_acceleration_FL": {
+      "type": "float",
+      "startbyte": 1261,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_acceleration_FR": {
+      "type": "float",
+      "startbyte": 1265,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_acceleration_RL": {
+      "type": "float",
+      "startbyte": 1269,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_susp_acceleration_RR": {
+      "type": "float",
+      "startbyte": 1273,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_acc_x": {
+      "type": "float",
+      "startbyte": 1277,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_acc_y": {
+      "type": "float",
+      "startbyte": 1281,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "F1_ang_acc_z": {
+      "type": "float",
+      "startbyte": 1285,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }    
+  }
+}
