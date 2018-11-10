@@ -1,7 +1,7 @@
 {
   "0x00A": {
-    "VCU_debug_message1": {
-      "type": "Uint",
+    "DCU_debug_message1": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -12,8 +12,8 @@
     }
   },
   "0x00B": {
-    "VCU_debug_message2": {
-      "type": "Uint",
+    "DCU_debug_message2": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -24,8 +24,8 @@
     }
   },
   "0x00C": {
-    "VCU_debug_message3": {
-      "type": "Uint",
+    "DCU_debug_message3": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -36,8 +36,8 @@
     }
   },
   "0x00D": {
-    "VCU_debug_message4": {
-      "type": "Uint",
+    "DCU_debug_message4": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -48,8 +48,8 @@
     }
   },
   "0x00E": {
-    "VCU_debug_message5": {
-      "type": "Uint",
+    "DCU_debug_message5": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -60,8 +60,8 @@
     }
   },
   "0x00F": {
-    "VCU_debug_message6": {
-      "type": "Uint",
+    "DCU_debug_message6": {
+      "type": "Float",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
