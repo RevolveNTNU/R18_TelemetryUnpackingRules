@@ -1,7 +1,7 @@
 {
   "0x00A": {
-    "DCU_debug_message1": {
-      "type": "Float",
+    "DCU_debug_message1a": {
+      "type": "Int",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -9,11 +9,21 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 10.0
-    }
+      },
+      "DCU_debug_message1b": {
+        "type": "Int",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 10.0
+        }
   },
   "0x00B": {
     "DCU_debug_message2": {
-      "type": "Float",
+      "type": "Int",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -25,7 +35,7 @@
   },
   "0x00C": {
     "DCU_debug_message3": {
-      "type": "Float",
+      "type": "Int",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
@@ -37,7 +47,7 @@
   },
   "0x00D": {
     "DCU_debug_message4": {
-      "type": "Float",
+      "type": "Int",
       "startbyte": 0,
       "length": 4,
       "factor": 1,
