@@ -74,7 +74,7 @@
   "0x010": {
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.01,
       "displayname": "",
@@ -84,7 +84,7 @@
     },
     "Simian_dataLogger_playback_Ib": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
       "length": 2,
       "factor": 0.01,
       "displayname": "",
@@ -96,7 +96,7 @@
   "0x011": {
     "Simian_dataLogger_playback_Id": {
       "type": "Int",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 2,
       "factor": 0.01,
       "displayname": "",
@@ -106,7 +106,7 @@
     },
     "Simian_dataLogger_playback_Iq": {
       "type": "Int",
-      "startbyte": 3,
+      "startbyte": 2,
       "length": 2,
       "factor": 0.01,
       "displayname": "",
@@ -116,7 +116,7 @@
     },
     "Simian_dataLogger_playback_rpm": {
       "type": "Int",
-      "startbyte": 5,
+      "startbyte": 4,
       "length": 2,
       "factor": 1.0,
       "displayname": "",
@@ -434,11 +434,11 @@
     }
   },
   "0x203": {
-    "Simian_current_a_rms": {
-      "type": "Int",
+    "Max_duty_cycle": {
+      "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1,
+      "factor": 1,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
