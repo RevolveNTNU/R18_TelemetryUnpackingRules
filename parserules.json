@@ -876,7 +876,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "Simian_div_msg_3": {
+    "Simian_div_msg_2": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
