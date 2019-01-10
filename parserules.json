@@ -32,8 +32,7 @@
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
-      "expectedmax": 10.0
-    }
+      "expectedmax": 10.0    }
   },
   "0x00D": {
     "VCU_debug_message4": {
@@ -8252,6 +8251,38 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 100
-    }
-  }
+    },
+    "0x298": {
+      "Simian_temp_msg_1": {
+        "type": "Uint",
+        "startbyte": 0,
+        "length": 2,
+        "factor": 1,
+        "displayname": "Simian temp 1",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 100
+      },
+      "Simian_temp_msg_2": {
+        "type": "Uint",
+        "startbyte": 2,
+        "length": 2,
+        "factor": 1,
+        "displayname": "Simian temp 2",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 100
+      },
+      "Simian_temp_msg_3": {
+        "type": "Uint",
+        "startbyte": 4,
+        "length": 2,
+        "factor": 1,
+        "displayname": "Simian temp 2",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 100
+      }
+   }
+}
 }
