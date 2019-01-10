@@ -8251,7 +8251,8 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 100
-    },
+    }
+  },
     "0x298": {
       "Simian_temp_msg_1": {
         "type": "Uint",
@@ -8284,5 +8285,4 @@
         "expectedmax": 100
       }
    }
-}
 }
