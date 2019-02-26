@@ -4056,7 +4056,7 @@
       "type": "Float",
       "startbyte": 0,
       "length": 4,
-      "factor": 0.001,
+      "factor": 1,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
