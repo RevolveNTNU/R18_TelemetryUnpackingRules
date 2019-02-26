@@ -7889,6 +7889,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x693": {
+    "GLVBMS_COLOMB_COUNT": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 1,
+      "factor": 1,
+      "displayname": "SOC count from lut",
+      "unit": "#",
+      "expectedmin": 0.0,
+      "expectedmax": 100
+    }
+  },
   "0x695": {
     "GLVBMS_ERROR_FLAGS": {
       "type": "Uint",
@@ -7921,18 +7933,6 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
-  },
-  "0x693": {
-    "GLVBMS_COLOMB_COUNT": {
-      "type": "Uint",
-      "startbyte": 4,
-      "length": 1,
-      "factor": 1,
-      "displayname": "SOC count from lut",
-      "unit": "#",
-      "expectedmin": 0.0,
-      "expectedmax": 100
     }
   },
   "0x6E0": {
