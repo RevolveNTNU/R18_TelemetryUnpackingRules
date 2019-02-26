@@ -3895,6 +3895,140 @@
       "expectedmax": 0.0
     }
   },
+  "0x4B0": {
+    "DCU_status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B1": {
+    "DCU_error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B2": {
+    "IMU_accelerometer_x_FL": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "IMU_accelerometer_z_FL": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B3": {
+    "IMU_accelerometer_x_CG": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "IMU_accelerometer_z_CG": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B4": {
+    "DCU_damper_control_v2": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "DCU_requested_c": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B5": {
+    "FL_DCU_damper_current": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x4B6": {
+    "FL_DCU_damper_current_PID_reference": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "FL_DCU_damper_current_error": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "FL_DCU_damper_current_PID_output": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x4C0": {
     "Alive_message": {
       "type": "Uint",
