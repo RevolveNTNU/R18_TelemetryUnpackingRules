@@ -3905,7 +3905,27 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
-    }
+    },
+    "DCU_damper_strategy": {
+        "type": "Uint",
+        "startbyte": 1,
+        "length": 1,
+        "factor": 1,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+    },
+    "DCU_current_strategy": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+      }
   },
   "0x4B1": {
     "DCU_error": {
