@@ -4095,6 +4095,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x4BF": {
+    "Linak_Reference": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x4C0": {
     "Alive_message": {
       "type": "Uint",
