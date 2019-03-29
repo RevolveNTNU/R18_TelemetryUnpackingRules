@@ -316,154 +316,6 @@
       "expectedmax": 0.0
     }
   },
-  "0x200": {
-    "Simian_current_d": {
-      "type": "Int",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_current_q": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_current_a": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_current_c": {
-      "type": "Int",
-      "startbyte": 6,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
-  },
-  "0x201": {
-    "Simian_current_dc": {
-      "type": "Int",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_motor_temp": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_voltage_dc_unused": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
-  },
-  "0x202": {
-    "Simian_speed_rpm": {
-      "type": "Int",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_speed_max_rpm": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_speed_min_rpm": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_speed_unused": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
-  },
-  "0x203": {
-    "Max_duty_cycle": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_current_b_rms": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "Simian_current_unused": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
-  },
   "0x283": {
     "AMK_FL_Status_": {
       "type": "Uint",
@@ -886,7 +738,7 @@
       "expectedmax": 0.0
     },
     "Simian_div_msg_3": {
-      "type": "Int",
+      "type": "Uint",
       "startbyte": 6,
       "length": 2,
       "factor": 0.1,
@@ -8083,70 +7935,6 @@
       "expectedmax": 100
     }
   },
-  "0x270": {
-    "Simian_data_mechanical_Encoder_Angle": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 4,
-      "factor": 0.01,
-      "displayname": "Encoder Angle",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    },
-    "Simian_data_mechanical_Speed": {
-      "type": "Int",
-      "startbyte": 4,
-      "length": 2,
-      "factor": 1,
-      "displayname": "Speed",
-      "unit": "RPM",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    },
-    "Simian_data_mechanical_Speed_unused": {
-      "type": "Uint",
-      "startbyte": 6,
-      "length": 2,
-      "factor": 1,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    }
-  },
-  "0x272": {
-    "Simian_data_electrical_Current_A": {
-      "type": "Int",
-      "startbyte": 0,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "Current A",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    },
-    "Simian_data_electrical_Current_B": {
-      "type": "Int",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 0.1,
-      "displayname": "Current B",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    },
-    "Simian_data_electrical_unused": {
-      "type": "Uint",
-      "startbyte": 4,
-      "length": 4,
-      "factor": 0.1,
-      "displayname": "Current B",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    }
-  },
   "0x296": {
     "Simian_data_PID_Reg_q_integrator": {
       "type": "Int",
@@ -8231,28 +8019,6 @@
       "expectedmax": 100
     }
   },
-  "0x273": {
-    "R16_STATUS_ID": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 4,
-      "factor": 1,
-      "displayname": "Simian status vector",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    },
-    "Simian_status_vector_sector_1": {
-      "type": "Uint",
-      "startbyte": 4,
-      "length": 4,
-      "factor": 1,
-      "displayname": "Simian status vector",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 100
-    }
-  },
     "0x298": {
       "Simian_temp_msg_1": {
         "type": "Uint",
@@ -8284,5 +8050,1204 @@
         "expectedmin": 0.0,
         "expectedmax": 100
       }
-   }
+   },
+   "0x200": {
+
+"FL_setpoint_q": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_setpoint_d": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x204": {
+"FR_setpoint_q": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_setpoint_d": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x208": {
+"RL_setpoint_q": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_setpoint_d": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x20C": {
+"RR_setpoint_q": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_setpoint_d": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x273": {
+"FL_status_vector": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_accumulated_status_vector": {
+"type": "Uint",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_state": {
+"type": "Uint",
+"startbyte": 16,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x277": {
+"FR_status_vector": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_accumulated_status_vector": {
+"type": "Uint",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_state": {
+"type": "Uint",
+"startbyte": 16,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x27B": {
+"RL_status_vector": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_accumulated_status_vector": {
+"type": "Uint",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_state": {
+"type": "Uint",
+"startbyte": 16,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x27F": {
+"RR_status_vector": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_accumulated_status_vector": {
+"type": "Uint",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_state": {
+"type": "Uint",
+"startbyte": 16,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x272": {
+"FL_Current_A": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 0.1,
+"displayname": "FL Current A",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_Current_C": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "FL Current C",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_current_D": {
+"type": "Uint",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "FL Current D",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_current_Q": {
+"type": "Uint",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "Current Q",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_voltage_q": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_voltage_d": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_voltage_a": {
+"type": "Float",
+"startbyte": 24,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_voltage_b": {
+"type": "Float",
+"startbyte": 28,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_voltage_dc": {
+"type": "Float",
+"startbyte": 32,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x276": {
+"FR_Current_A": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 0.1,
+"displayname": "FR Current A",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_Current_C": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "FR Current C",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_current_D": {
+"type": "Uint",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "FR Current D",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_current_Q": {
+"type": "Uint",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "FR Current Q",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_voltage_q": {
+
+"type": "Float",
+"startbyte": 16,
+
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_voltage_d": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_voltage_a": {
+"type": "Float",
+"startbyte": 24,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_voltage_b": {
+"type": "Float",
+"startbyte": 28,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FR_voltage_dc": {
+"type": "Float",
+"startbyte": 32,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x27A": {
+"RL_Current_A": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 0.1,
+"displayname": "RL Current A",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_Current_C": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "RL Current C",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_current_D": {
+"type": "Uint",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "RL Current D",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_current_Q": {
+"type": "Uint",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "RL Current Q",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_voltage_q": {
+
+"type": "Float",
+"startbyte": 16,
+
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_voltage_d": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_voltage_a": {
+"type": "Float",
+"startbyte": 24,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_voltage_b": {
+"type": "Float",
+"startbyte": 28,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RL_voltage_dc": {
+"type": "Float",
+"startbyte": 32,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x27E": {
+"RR_Current_A": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 0.1,
+"displayname": "RR Current A",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_Current_C": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "RR Current C",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_current_D": {
+"type": "Uint",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "RR Current D",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_current_Q": {
+"type": "Uint",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "RR Current Q",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_voltage_q": {
+
+"type": "Float",
+"startbyte": 16,
+
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_voltage_d": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_voltage_a": {
+"type": "Float",
+"startbyte": 24,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_voltage_b": {
+"type": "Float",
+"startbyte": 28,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"RR_voltage_dc": {
+"type": "Float",
+"startbyte": 32,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x271": {
+"FL_temp_msg_1": {
+"type": "Uint",
+"startbyte": 0,
+"length": 2,
+"factor": 1,
+"displayname": "FL temp 1",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_temp_msg_2": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "FL temp 2",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_temp_msg_3": {
+"type": "Uint",
+"startbyte": 4,
+"length": 2,
+"factor": 1,
+"displayname": "FL temp 3",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_motor_temp": {
+"type": "Uint",
+"startbyte": 6,
+"length": 2,
+"factor": 1,
+"displayname": " FL motor_temp",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x275": {
+"FR_temp_msg_1": {
+"type": "Uint",
+"startbyte": 0,
+"length": 2,
+"factor": 1,
+"displayname": "Simian temp 1",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_temp_msg_2": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "FR temp 2",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_temp_msg_3": {
+"type": "Uint",
+"startbyte": 4,
+"length": 2,
+"factor": 1,
+"displayname": "FR temp 3",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_motor_temp": {
+"type": "Uint",
+"startbyte": 6,
+"length": 2,
+"factor": 1,
+"displayname": "FR motor_temp",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x279": {
+"RL_temp_msg_1": {
+"type": "Uint",
+"startbyte": 0,
+"length": 2,
+"factor": 1,
+"displayname": "RL temp 1",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_temp_msg_2": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "RL temp 2",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_temp_msg_3": {
+"type": "Uint",
+"startbyte": 4,
+"length": 2,
+"factor": 1,
+"displayname": "RL temp 3",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_motor_temp": {
+"type": "Uint",
+"startbyte": 6,
+"length": 2,
+"factor": 1,
+"displayname": "RL motor temp",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x27D": {
+"RR_temp_msg_1": {
+"type": "Uint",
+"startbyte": 0,
+"length": 2,
+"factor": 1,
+"displayname": "RR temp 1",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_temp_msg_2": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "RR temp 2",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_temp_msg_3": {
+"type": "Uint",
+"startbyte": 4,
+"length": 2,
+"factor": 1,
+"displayname": "RR temp 3",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_motor_temp": {
+"type": "Uint",
+"startbyte": 6,
+"length": 2,
+"factor": 1,
+"displayname": "RR motor_temp",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x270": {
+"FL_Encoder_Angle": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 0.01,
+"displayname": "Encoder Angle",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_speed_rpm_current": {
+"type": "Int",
+"startbyte":8 ,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_rpm_derivate": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_applied_torque": {
+"type": "Float",
+"startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x274": {
+"FR_Encoder_Angle": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 0.01,
+"displayname": "Encoder Angle",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_speed_rpm_current": {
+"type": "Int",
+"startbyte":8 ,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_rpm_derivate": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_applied_torque": {
+"type": "Float",
+"startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x278": {
+"RL_Encoder_Angle": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 0.01,
+"displayname": "Encoder Angle",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_speed_rpm_current": {
+"type": "Int",
+"startbyte":8 ,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_rpm_derivate": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_applied_torque": {
+"type": "Float",
+"startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x27C": {
+"RR_Encoder_Angle": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 0.01,
+"displayname": "Encoder Angle",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_speed_rpm_current": {
+"type": "Int",
+"startbyte":8 ,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_rpm_derivate": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "Speed",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_applied_torque": {
+"type": "Float",
+"startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x170": {
+"FL_CTRL_msg": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_unused": {
+"type": "Uint",
+"startbyte": 1,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_unused_1": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_speed_request": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_torque_max_limit": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FL_torque_min_limit": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x174": {
+"FR_CTRL_msg": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_unused": {
+"type": "Uint",
+"startbyte": 1,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_unused_1": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_speed_request": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_torque_max_limit": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_torque_min_limit": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x178": {
+"RL_CTRL_msg": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_unused": {
+"type": "Uint",
+"startbyte": 1,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_unused_1": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_speed_request": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_torque_max_limit": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RL_torque_min_limit": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x17C": {
+"RR_CTRL_msg": {
+"type": "Uint",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_unused": {
+"type": "Uint",
+"startbyte": 1,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_unused_1": {
+"type": "Uint",
+"startbyte": 2,
+"length": 2,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_speed_request": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_torque_max_limit": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_torque_min_limit": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+}
 }
