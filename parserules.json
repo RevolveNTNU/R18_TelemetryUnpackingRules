@@ -5118,7 +5118,7 @@
   },   
   "0x52B": {
     "DV_ACU_BRAKE_PRESSURES_ID": {
-      "type": "Float",
+      "type": "Uint",
       "startbyte": 0,
       "length": 8,
       "factor": 0.001,
