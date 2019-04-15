@@ -8140,8 +8140,8 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
-},
-"0x273": {
+},"0x273": {
+
 "FL_status_vector": {
 "type": "Uint",
 "startbyte": 0,
@@ -8152,6 +8152,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "FL_accumulated_status_vector": {
 "type": "Uint",
 "startbyte": 4,
@@ -8162,9 +8163,21 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
-"FL_state": {
+
+"FL_encoder_state": {
 "type": "Uint",
-"startbyte": 16,
+"startbyte": 8,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_Inverter_state": {
+"type": "Uint",
+"startbyte": 8,
 "length": 1,
 "factor": 1,
 "displayname": "",
@@ -8172,8 +8185,8 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
-},
-"0x277": {
+},"0x277": {
+
 "FR_status_vector": {
 "type": "Uint",
 "startbyte": 0,
@@ -8184,6 +8197,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "FR_accumulated_status_vector": {
 "type": "Uint",
 "startbyte": 4,
@@ -8194,9 +8208,20 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
-"FR_state": {
+
+"FR_encoder_state": {
 "type": "Uint",
-"startbyte": 16,
+"startbyte": 8,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_inverter_state": {
+"type": "Uint",
+"startbyte": 8,
 "length": 1,
 "factor": 1,
 "displayname": "",
@@ -8204,8 +8229,8 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
-},
-"0x27B": {
+},"0x27B": {
+
 "RL_status_vector": {
 "type": "Uint",
 "startbyte": 0,
@@ -8226,9 +8251,19 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
-"RL_state": {
+"RL_encoder_state": {
 "type": "Uint",
-"startbyte": 16,
+"startbyte": 8,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_inverter_state": {
+"type": "Uint",
+"startbyte": 8,
 "length": 1,
 "factor": 1,
 "displayname": "",
@@ -8236,8 +8271,8 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
-},
-"0x27F": {
+},"0x27F": {
+
 "RR_status_vector": {
 "type": "Uint",
 "startbyte": 0,
@@ -8248,6 +8283,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "RR_accumulated_status_vector": {
 "type": "Uint",
 "startbyte": 4,
@@ -8258,9 +8294,19 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
-"RR_state": {
+"RR_encoder_state": {
 "type": "Uint",
-"startbyte": 16,
+"startbyte": 8,
+"length": 1,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+"FL_inverter_state": {
+"type": "Uint",
+"startbyte": 8,
 "length": 1,
 "factor": 1,
 "displayname": "",
@@ -9010,6 +9056,7 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FL_unused": {
 "type": "Uint",
 "startbyte": 1,
@@ -9020,6 +9067,7 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FL_unused_1": {
 "type": "Uint",
 "startbyte": 2,
@@ -9030,6 +9078,7 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FL_speed_request": {
 "type": "Float",
 "startbyte": 4,
@@ -9040,6 +9089,7 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FL_torque_max_limit": {
 "type": "Float",
 "startbyte": 8,
@@ -9050,6 +9100,8 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
+
 "FL_torque_min_limit": {
 "type": "Float",
 "startbyte": 12,
@@ -9059,12 +9111,11 @@
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 100
-}
 },
-"0x174": {
+
 "FR_CTRL_msg": {
 "type": "Uint",
-"startbyte": 0,
+"startbyte": 16,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9073,29 +9124,9 @@
 "expectedmax": 100
 },
 
-"FR_unused": {
-"type": "Uint",
-"startbyte": 1,
-"length": 1,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-"FR_unused_1": {
-"type": "Uint",
-"startbyte": 2,
-"length": 2,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
 "FR_speed_request": {
 "type": "Float",
-"startbyte": 4,
+"startbyte": 20,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9103,9 +9134,10 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FR_torque_max_limit": {
 "type": "Float",
-"startbyte": 8,
+"startbyte": 24,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9113,21 +9145,21 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FR_torque_min_limit": {
 "type": "Float",
-"startbyte": 12,
+"startbyte": 28,
 "length": 4,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 100
-}
 },
-"0x178": {
+
 "RL_CTRL_msg": {
 "type": "Uint",
-"startbyte": 0,
+"startbyte": 32,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9136,61 +9168,9 @@
 "expectedmax": 100
 },
 
-"RL_unused": {
-"type": "Uint",
-"startbyte": 1,
-"length": 1,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-"RL_unused_1": {
-"type": "Uint",
-"startbyte": 2,
-"length": 2,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
 "RL_speed_request": {
 "type": "Float",
-"startbyte": 4,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-"RL_torque_max_limit": {
-"type": "Float",
-"startbyte": 8,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-"RL_torque_min_limit": {
-"type": "Float",
-"startbyte": 12,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-}
-},
-"0x17C": {
-"RR_CTRL_msg": {
-"type": "Uint",
-"startbyte": 0,
+"startbyte": 36,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9199,27 +9179,87 @@
 "expectedmax": 100
 },
 
-"RR_unused": {
-"type": "Uint",
-"startbyte": 1,
-"length": 1,
+"RL_torque_max_limit": {
+"type": "Float",
+"startbyte": 40,
+"length": 4,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
-"RR_unused_1": {
-"type": "Uint",
-"startbyte": 2,
-"length": 2,
+
+
+"RL_torque_min_limit": {
+"type": "Float",
+"startbyte": 44,
+"length": 4,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
+"RR_CTRL_msg": {
+"type": "Uint",
+"startbyte": 48,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
 "RR_speed_request": {
+"type": "Float",
+"startbyte": 52,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_torque_max_limit": {
+"type": "Float",
+"startbyte": 56,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_torque_min_limit": {
+"type": "Float",
+"startbyte": 60,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 100
+}
+},
+"0x201": {
+
+"FL_psi_s_pu": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_i_dref_fw_pu": {
 "type": "Float",
 "startbyte": 4,
 "length": 4,
@@ -9227,9 +9267,10 @@
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
-"expectedmax": 100
+"expectedmax": 0.0
 },
-"RR_torque_max_limit": {
+
+"FL_i_dref_opt_pu": {
 "type": "Float",
 "startbyte": 8,
 "length": 4,
@@ -9237,9 +9278,10 @@
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
-"expectedmax": 100
+"expectedmax": 0.0
 },
-"RR_torque_min_limit": {
+
+"FL_i_dref_used_pu": {
 "type": "Float",
 "startbyte": 12,
 "length": 4,
@@ -9247,7 +9289,513 @@
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
-"expectedmax": 100
+"expectedmax": 0.0
+},
+
+"FL_torque_req_used_pu": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_i_qref_pu": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
 }
+
+},
+"0x205": {
+
+"FR_psi_s_pu": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_i_dref_fw_pu": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_i_dref_opt_pu": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_i_dref_used_pu": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_torque_req_used_pu": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_i_qref_pu": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
 }
+
+},
+"0x209": {
+
+"RL_psi_s_pu": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_i_dref_fw_pu": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_i_dref_opt_pu": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_i_dref_used_pu": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_torque_req_used_pu": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_i_qref_pu": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+
+},
+"0x20D": {
+
+"RR_psi_s_pu": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_i_dref_fw_pu": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_i_dref_opt_pu": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_i_dref_used_pu": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_torque_req_used_pu": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_i_qref_pu": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+},
+"0x20E": {
+
+"RR_phase_a_duty_cycle": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_phase_b_duty_cycle": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_phase_c_duty_cycle": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_phase_a_duty_cycle_new": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_phase_b_duty_cycle_new": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RR_phase_c_duty_cycle_new": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+
+},
+"0x20A": {
+
+"RL_phase_a_duty_cycle": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_phase_b_duty_cycle": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_phase_c_duty_cycle": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_phase_a_duty_cycle_new": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_phase_b_duty_cycle_new": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"RL_phase_c_duty_cycle_new": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+
+},
+"0x206": {
+
+"FR_phase_a_duty_cycle": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_phase_b_duty_cycle": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_phase_c_duty_cycle": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_phase_a_duty_cycle_new": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_phase_b_duty_cycle_new": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FR_phase_c_duty_cycle_new": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+
+},
+"0x202": {
+
+"FL_phase_a_duty_cycle": {
+"type": "Float",
+"startbyte": 0,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_phase_b_duty_cycle": {
+"type": "Float",
+"startbyte": 4,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_phase_c_duty_cycle": {
+"type": "Float",
+"startbyte": 8,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_phase_a_duty_cycle_new": {
+"type": "Float",
+"startbyte": 12,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_phase_b_duty_cycle_new": {
+"type": "Float",
+"startbyte": 16,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+},
+
+"FL_phase_c_duty_cycle_new": {
+"type": "Float",
+"startbyte": 20,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "",
+"expectedmin": 0.0,
+"expectedmax": 0.0
+}
+
+}
+
 }
