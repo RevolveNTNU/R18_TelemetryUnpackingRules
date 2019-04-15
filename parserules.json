@@ -317,6 +317,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x191": {
+    "DV_RES_PDO_TRANSMIT": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 8,
+      "factor": 1,
+      "displayname": "RES PDO transmit",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x200": {
     "Simian_current_a": {
       "type": "Int",
@@ -5080,6 +5092,54 @@
       "expectedmax": 0.0
     }
   },
+  "0x504": {
+    "DV_ACU_SYSTEM_STATUS_ID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 5,
+      "factor": 1,
+      "displayname": "ACU system status",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x527": {
+    "DV_ACU_SDC_LOGIC_MONITORING_ID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1,
+      "displayname": "ACU SDC monitoring",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },   
+  "0x52B": {
+    "DV_ACU_BRAKE_PRESSURES_ID": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 8,
+      "factor": 0.001,
+      "displayname": "ACU brake pressures",
+      "unit": "Bar",
+      "expectedmin": 0.0,
+      "expectedmax": 65.5
+    }
+  },
+  "0x52C": {
+    "DV_ACU_ANALYZE_ALIVE_ID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 0,
+      "factor": 1,
+      "displayname": "ACU Analyze alive",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x660": {
     "BMS_Cell_Voltage_0": {
       "type": "Uint",
@@ -8064,6 +8124,18 @@
       "unit": "#",
       "expectedmin": 0.0,
       "expectedmax": 100
+    }
+  },
+  "0x711": {
+    "DV_RES_NMT_NODE_MONITORING": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1,
+      "displayname": "RES NMT node monitoring",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   }
 }
