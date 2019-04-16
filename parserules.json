@@ -8908,6 +8908,27 @@
 "unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
+},
+"FL_torque_request": {
+"type": "Float",
+"startbyte":20 ,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FL_speed_request": {
+"type": "Float",
+"startbyte":24 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
 }
 },
 "0x274": {
@@ -8947,6 +8968,27 @@
 "FR_applied_torque": {
 "type": "Float",
 "startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"FR_torque_request": {
+"type": "Float",
+"startbyte":20 ,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"FR_speed_request": {
+"type": "Float",
+"startbyte":24 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
@@ -8998,6 +9040,27 @@
 "unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
+},
+"RL_torque_request": {
+"type": "Float",
+"startbyte":20 ,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RL_speed_request": {
+"type": "Float",
+"startbyte":24 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
 }
 },
 "0x27C": {
@@ -9037,6 +9100,27 @@
 "RR_applied_torque": {
 "type": "Float",
 "startbyte":16 ,
+"length": 4,
+"factor": 1,
+"displayname": "Applied torque",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+"RR_torque_request": {
+"type": "Float",
+"startbyte":20 ,
+"length": 4,
+"factor": 1,
+"displayname": "",
+"unit": "RPM",
+"expectedmin": 0.0,
+"expectedmax": 100
+},
+
+"RR_speed_request": {
+"type": "Float",
+"startbyte":24 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
