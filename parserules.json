@@ -8899,13 +8899,13 @@
 "expectedmax": 100
 },
 
-"FL_applied_torque": {
+"FL_applied_torque_measured_avg": {
 "type": "Float",
 "startbyte":16 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "RPM",
+"unit": "Nm",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
@@ -8965,13 +8965,13 @@
 "expectedmax": 100
 },
 
-"FR_applied_torque": {
+"FR_applied_torque_measured_avg": {
 "type": "Float",
 "startbyte":16 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "RPM",
+"unit": "Nm",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
@@ -9031,13 +9031,13 @@
 "expectedmax": 100
 },
 
-"RL_applied_torque": {
+"RL_applied_torque_measured_avg": {
 "type": "Float",
 "startbyte":16 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "RPM",
+"unit": "Nm",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
@@ -9097,13 +9097,13 @@
 "expectedmax": 100
 },
 
-"RR_applied_torque": {
+"RR_applied_torque_measured_avg": {
 "type": "Float",
 "startbyte":16 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "RPM",
+"unit": "Nm",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
