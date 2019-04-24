@@ -8167,7 +8167,7 @@
 "FL_encoder_state": {
 "type": "Uint",
 "startbyte": 8,
-"length": 4,
+"length": 1,
 "factor": 1,
 "displayname": "",
 "unit": "",
@@ -8185,6 +8185,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
+
 },"0x277": {
 
 "FR_status_vector": {
@@ -8212,13 +8213,14 @@
 "FR_encoder_state": {
 "type": "Uint",
 "startbyte": 8,
-"length": 4,
+"length": 1,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "FL_inverter_state": {
 "type": "Uint",
 "startbyte": 12,
@@ -8241,6 +8243,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "RL_accumulated_status_vector": {
 "type": "Uint",
 "startbyte": 4,
@@ -8251,16 +8254,18 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "RL_encoder_state": {
 "type": "Uint",
 "startbyte": 8,
-"length": 4,
+"length": 1,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "FL_inverter_state": {
 "type": "Uint",
 "startbyte": 12,
@@ -8271,6 +8276,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
+
 },"0x27F": {
 
 "RR_status_vector": {
@@ -8294,16 +8300,18 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "RR_encoder_state": {
 "type": "Uint",
 "startbyte": 8,
-"length": 4,
+"length": 1,
 "factor": 1,
 "displayname": "",
 "unit": "",
 "expectedmin": 0.0,
 "expectedmax": 0.0
 },
+
 "FL_inverter_state": {
 "type": "Uint",
 "startbyte": 12,
@@ -8314,6 +8322,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
+
 },
 "0x272": {
 "FL_Current_A": {
@@ -8864,8 +8873,7 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 }
-},
-"0x270": {
+},"0x270": {
 "FL_Encoder_Angle": {
 "type": "Uint",
 "startbyte": 0,
@@ -8879,7 +8887,7 @@
 
 "FL_speed_rpm_current": {
 "type": "Int",
-"startbyte":8 ,
+"startbyte":4 ,
 "length": 4,
 "factor": 1,
 "displayname": "Speed",
@@ -8890,7 +8898,7 @@
 
 "FL_rpm_derivate": {
 "type": "Float",
-"startbyte": 12,
+"startbyte": 8,
 "length": 4,
 "factor": 1,
 "displayname": "Speed",
@@ -8899,19 +8907,20 @@
 "expectedmax": 100
 },
 
-"FL_applied_torque_measured_avg": {
+"FL_applied_torque_measurement_avg": {
 "type": "Float",
-"startbyte":16 ,
+"startbyte":12,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "Nm",
+"unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FL_torque_request": {
 "type": "Float",
-"startbyte":20 ,
+"startbyte":16,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -8922,7 +8931,7 @@
 
 "FL_speed_request": {
 "type": "Float",
-"startbyte":24 ,
+"startbyte":20,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
@@ -8945,7 +8954,7 @@
 
 "FR_speed_rpm_current": {
 "type": "Int",
-"startbyte":8 ,
+"startbyte":4 ,
 "length": 4,
 "factor": 1,
 "displayname": "Speed",
@@ -8965,19 +8974,20 @@
 "expectedmax": 100
 },
 
-"FR_applied_torque_measured_avg": {
+"FR_applied_torque_measurement_avg": {
 "type": "Float",
-"startbyte":16 ,
+"startbyte":12,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "Nm",
+"unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "FR_torque_request": {
 "type": "Float",
-"startbyte":20 ,
+"startbyte":16,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -8988,7 +8998,7 @@
 
 "FR_speed_request": {
 "type": "Float",
-"startbyte":24 ,
+"startbyte":20,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
@@ -8996,8 +9006,8 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 }
-},
-"0x278": {
+
+},"0x278": {
 "RL_Encoder_Angle": {
 "type": "Uint",
 "startbyte": 0,
@@ -9011,7 +9021,7 @@
 
 "RL_speed_rpm_current": {
 "type": "Int",
-"startbyte":8 ,
+"startbyte":4 ,
 "length": 4,
 "factor": 1,
 "displayname": "Speed",
@@ -9031,19 +9041,20 @@
 "expectedmax": 100
 },
 
-"RL_applied_torque_measured_avg": {
+"RL_applied_torque_measurement_avg": {
 "type": "Float",
-"startbyte":16 ,
+"startbyte":12,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "Nm",
+"unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "RL_torque_request": {
 "type": "Float",
-"startbyte":20 ,
+"startbyte":16,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9054,7 +9065,7 @@
 
 "RL_speed_request": {
 "type": "Float",
-"startbyte":24 ,
+"startbyte":20,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
@@ -9062,8 +9073,8 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 }
-},
-"0x27C": {
+
+},"0x27C": {
 "RR_Encoder_Angle": {
 "type": "Uint",
 "startbyte": 0,
@@ -9077,7 +9088,7 @@
 
 "RR_speed_rpm_current": {
 "type": "Int",
-"startbyte":8 ,
+"startbyte":4 ,
 "length": 4,
 "factor": 1,
 "displayname": "Speed",
@@ -9097,19 +9108,20 @@
 "expectedmax": 100
 },
 
-"RR_applied_torque_measured_avg": {
+"RR_applied_torque_measurement_avg": {
 "type": "Float",
-"startbyte":16 ,
+"startbyte":12 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
-"unit": "Nm",
+"unit": "RPM",
 "expectedmin": 0.0,
 "expectedmax": 100
 },
+
 "RR_torque_request": {
 "type": "Float",
-"startbyte":20 ,
+"startbyte":16,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9120,7 +9132,7 @@
 
 "RR_speed_request": {
 "type": "Float",
-"startbyte":24 ,
+"startbyte":20 ,
 "length": 4,
 "factor": 1,
 "displayname": "Applied torque",
@@ -9128,6 +9140,8 @@
 "expectedmin": 0.0,
 "expectedmax": 100
 }
+
+
 },
 "0x170": {
 "FL_CTRL_msg": {
@@ -9604,8 +9618,7 @@
 "expectedmin": 0.0,
 "expectedmax": 0.0
 }
-},
-"0x20E": {
+},"0x20E": {
 
 "RR_phase_a_duty_cycle": {
 "type": "Float",
@@ -9642,7 +9655,7 @@
 
 "RR_phase_a_duty_cycle_new": {
 "type": "Float",
-"startbyte": 12,
+"startbyte":12,
 "length": 4,
 "factor": 1,
 "displayname": "",
@@ -9673,8 +9686,8 @@
 "expectedmax": 0.0
 }
 
-},
-"0x20A": {
+
+},"0x20A": {
 
 "RL_phase_a_duty_cycle": {
 "type": "Float",
@@ -9742,8 +9755,7 @@
 "expectedmax": 0.0
 }
 
-},
-"0x206": {
+},"0x206": {
 
 "FR_phase_a_duty_cycle": {
 "type": "Float",
