@@ -8312,7 +8312,7 @@
 "expectedmax": 0.0
 },
 
-"FL_inverter_state": {
+"RR_inverter_state": {
 "type": "Uint",
 "startbyte": 12,
 "length": 1,
