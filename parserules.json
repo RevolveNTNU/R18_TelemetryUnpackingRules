@@ -418,7 +418,7 @@
 		},
 		"FL_encoder_angle_no_delay_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -428,7 +428,7 @@
 		},
 		"FL_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 8,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -856,7 +856,7 @@
 		},
 		"FR_encoder_angle_no_delay_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -866,7 +866,7 @@
 		},
 		"FR_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 8,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1294,7 +1294,7 @@
 		},
 		"RL_encoder_angle_no_delay_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1304,7 +1304,7 @@
 		},
 		"RL_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 8,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1732,7 +1732,7 @@
 		},
 		"RR_encoder_angle_no_delay_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1742,7 +1742,7 @@
 		},
 		"RR_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
-			"startbyte": 0,
+			"startbyte": 8,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
