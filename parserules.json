@@ -405,6 +405,38 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000010": {
+		"FL_encoder_angle_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_encoder_angle_no_delay_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_encoder_angle_raw_position_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x00000274": {
 		"FR_encoder_angle": {
 			"type": "Float",
@@ -803,6 +835,38 @@
 		"FR_setpoint_d_ack": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000014": {
+		"FR_encoder_angle_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_encoder_angle_no_delay_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_encoder_angle_raw_position_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1217,6 +1281,38 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000018": {
+		"RL_encoder_angle_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_encoder_angle_no_delay_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_encoder_angle_raw_position_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x0000027c": {
 		"RR_encoder_angle": {
 			"type": "Float",
@@ -1615,6 +1711,38 @@
 		"RR_setpoint_d_ack": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000001c": {
+		"RR_encoder_angle_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_encoder_angle_no_delay_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_encoder_angle_raw_position_datalogger": {
+			"type": "Float",
+			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
