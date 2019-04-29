@@ -40,7 +40,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_torque_request": {
+		"FL_encoder_angle_no_fudge": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -50,7 +50,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_speed_request": {
+		"FL_encoder_angle_raw_position": {
 			"type": "Float",
 			"startbyte": 20,
 			"length": 4,
@@ -446,7 +446,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_torque_request": {
+		"FR_encoder_angle_no_fudge": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -456,7 +456,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_speed_request": {
+		"FR_encoder_angle_raw_position": {
 			"type": "Float",
 			"startbyte": 20,
 			"length": 4,
@@ -852,7 +852,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_torque_request": {
+		"RL_encoder_angle_no_fudge": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -862,7 +862,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_speed_request": {
+		"RL_encoder_angle_raw_position": {
 			"type": "Float",
 			"startbyte": 20,
 			"length": 4,
@@ -1258,7 +1258,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_torque_request": {
+		"RR_encoder_angle_no_fudge": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -1268,7 +1268,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_speed_request": {
+		"RR_encoder_angle_raw_position": {
 			"type": "Float",
 			"startbyte": 20,
 			"length": 4,
