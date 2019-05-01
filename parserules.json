@@ -437,6 +437,28 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000280": {
+		"FL_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x00000274": {
 		"FR_encoder_angle": {
 			"type": "Float",
@@ -867,6 +889,28 @@
 		"FR_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000284": {
+		"FR_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1313,6 +1357,28 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000288": {
+		"RL_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x0000027c": {
 		"RR_encoder_angle": {
 			"type": "Float",
@@ -1743,6 +1809,28 @@
 		"RR_encoder_angle_raw_position_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000028c": {
+		"RR_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
