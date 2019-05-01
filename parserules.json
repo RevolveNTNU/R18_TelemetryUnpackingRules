@@ -437,7 +437,7 @@
 			"expectedmax": 0.000000
 		}
 	},
-	"0x00000280": {
+	"0x00000180": {
 		"FL_AMS_current_reading_raw": {
 			"type": "Float",
 			"startbyte": 0,
@@ -897,7 +897,7 @@
 			"expectedmax": 0.000000
 		}
 	},
-	"0x00000284": {
+	"0x00000184": {
 		"FR_AMS_current_reading_raw": {
 			"type": "Float",
 			"startbyte": 0,
@@ -1357,7 +1357,7 @@
 			"expectedmax": 0.000000
 		}
 	},
-	"0x00000288": {
+	"0x00000188": {
 		"RL_AMS_current_reading_raw": {
 			"type": "Float",
 			"startbyte": 0,
@@ -1817,7 +1817,7 @@
 			"expectedmax": 0.000000
 		}
 	},
-	"0x0000028c": {
+	"0x0000018c": {
 		"RR_AMS_current_reading_raw": {
 			"type": "Float",
 			"startbyte": 0,
