@@ -438,7 +438,7 @@
 		}
 	},
 	"0x00000180": {
-		"FL_AMS_current_reading_raw": {
+		"FL_AMS_current_reading_raw_no_offset": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -448,9 +448,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_AMS_torque_reading": {
+		"FL_AMS_torque_reading_no_offset": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 12,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -898,7 +918,7 @@
 		}
 	},
 	"0x00000184": {
-		"FR_AMS_current_reading_raw": {
+		"FR_AMS_current_reading_raw_no_offset": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -908,9 +928,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_AMS_torque_reading": {
+		"FR_AMS_torque_reading_no_offset": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 12,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1358,7 +1398,7 @@
 		}
 	},
 	"0x00000188": {
-		"RL_AMS_current_reading_raw": {
+		"RL_AMS_current_reading_raw_no_offset": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -1368,9 +1408,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_AMS_torque_reading": {
+		"RL_AMS_torque_reading_no_offset": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 12,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1818,7 +1878,7 @@
 		}
 	},
 	"0x0000018c": {
-		"RR_AMS_current_reading_raw": {
+		"RR_AMS_current_reading_raw_no_offset": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -1828,9 +1888,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_AMS_torque_reading": {
+		"RR_AMS_torque_reading_no_offset": {
 			"type": "Float",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_AMS_current_reading_raw": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_AMS_torque_reading": {
+			"type": "Float",
+			"startbyte": 12,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
