@@ -406,7 +406,7 @@
 		}
 	},
 	"0x00000010": {
-		"FL_encoder_angle_datalogger": {
+		"FL_current_a_datalogger": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -416,7 +416,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_encoder_angle_no_delay_datalogger": {
+		"FL_current_c_datalogger": {
 			"type": "Float",
 			"startbyte": 4,
 			"length": 4,
@@ -426,9 +426,49 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_encoder_angle_raw_position_datalogger": {
+		"FL_current_d_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_current_q_datalogger": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_voltage_d_datalogger": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_voltage_q_datalogger": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_speed_rpm_datalogger": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -946,7 +986,7 @@
 		}
 	},
 	"0x00000014": {
-		"FR_encoder_angle_datalogger": {
+		"FR_current_a_datalogger": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -956,7 +996,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_encoder_angle_no_delay_datalogger": {
+		"FR_current_c_datalogger": {
 			"type": "Float",
 			"startbyte": 4,
 			"length": 4,
@@ -966,9 +1006,49 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_encoder_angle_raw_position_datalogger": {
+		"FR_current_d_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_current_q_datalogger": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_voltage_d_datalogger": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_voltage_q_datalogger": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_speed_rpm_datalogger": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1486,7 +1566,7 @@
 		}
 	},
 	"0x00000018": {
-		"RL_encoder_angle_datalogger": {
+		"RL_current_a_datalogger": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -1496,7 +1576,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_encoder_angle_no_delay_datalogger": {
+		"RL_current_c_datalogger": {
 			"type": "Float",
 			"startbyte": 4,
 			"length": 4,
@@ -1506,9 +1586,49 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_encoder_angle_raw_position_datalogger": {
+		"RL_current_d_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_current_q_datalogger": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_voltage_d_datalogger": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_voltage_q_datalogger": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_speed_rpm_datalogger": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -2026,7 +2146,7 @@
 		}
 	},
 	"0x0000001c": {
-		"RR_encoder_angle_datalogger": {
+		"RR_current_a_datalogger": {
 			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
@@ -2036,7 +2156,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_encoder_angle_no_delay_datalogger": {
+		"RR_current_c_datalogger": {
 			"type": "Float",
 			"startbyte": 4,
 			"length": 4,
@@ -2046,9 +2166,49 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_encoder_angle_raw_position_datalogger": {
+		"RR_current_d_datalogger": {
 			"type": "Float",
 			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_current_q_datalogger": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_voltage_d_datalogger": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_voltage_q_datalogger": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_speed_rpm_datalogger": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
