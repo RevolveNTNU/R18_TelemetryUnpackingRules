@@ -581,7 +581,7 @@
 	},
 	"0x00000181": {
 		"FL_MP55_Measurement": {
-			"type": "Int",
+			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -1173,7 +1173,7 @@
 	},
 	"0x00000185": {
 		"FR_MP55_Measurement": {
-			"type": "Int",
+			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -1765,7 +1765,7 @@
 	},
 	"0x00000189": {
 		"RL_MP55_Measurement": {
-			"type": "Int",
+			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -2357,7 +2357,7 @@
 	},
 	"0x0000018d": {
 		"RR_MP55_Measurement": {
-			"type": "Int",
+			"type": "Float",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
