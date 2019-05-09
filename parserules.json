@@ -579,6 +579,18 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000181": {
+		"FL_MP55_Measurement": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x00000274": {
 		"FR_encoder_angle": {
 			"type": "Float",
@@ -1151,6 +1163,18 @@
 		"FR_AMS_torque_reading_strong_ema": {
 			"type": "Float",
 			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000185": {
+		"FR_MP55_Measurement": {
+			"type": "Int",
+			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1739,6 +1763,18 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000189": {
+		"RL_MP55_Measurement": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x0000027c": {
 		"RR_encoder_angle": {
 			"type": "Float",
@@ -2311,6 +2347,18 @@
 		"RR_AMS_torque_reading_strong_ema": {
 			"type": "Float",
 			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000018d": {
+		"RR_MP55_Measurement": {
+			"type": "Int",
+			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
