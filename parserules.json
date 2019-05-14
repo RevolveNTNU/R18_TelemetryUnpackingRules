@@ -591,6 +591,28 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000450": {
+		"FL_current_a_single": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_current_c_single": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x00000274": {
 		"FR_encoder_angle": {
 			"type": "Float",
@@ -1175,6 +1197,28 @@
 		"FR_MP55_Measurement": {
 			"type": "Float",
 			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000454": {
+		"FR_current_a_single": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_current_c_single": {
+			"type": "Float",
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1775,6 +1819,28 @@
 			"expectedmax": 0.000000
 		}
 	},
+	"0x00000458": {
+		"RL_current_a_single": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_current_c_single": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
 	"0x0000027c": {
 		"RR_encoder_angle": {
 			"type": "Float",
@@ -2359,6 +2425,28 @@
 		"RR_MP55_Measurement": {
 			"type": "Float",
 			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000045c": {
+		"RR_current_a_single": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_current_c_single": {
+			"type": "Float",
+			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
