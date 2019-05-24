@@ -206,7 +206,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_accumulated_status_vector": {
+		"FL_encoder_state": {
 			"type": "Uint",
 			"startbyte": 4,
 			"length": 4,
@@ -216,19 +216,9 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_encoder_state": {
-			"type": "Uint",
-			"startbyte": 8,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
 		"FL_state": {
 			"type": "Uint",
-			"startbyte": 12,
+			"startbyte": 8,
 			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
@@ -820,7 +810,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_accumulated_status_vector": {
+		"FR_encoder_state": {
 			"type": "Uint",
 			"startbyte": 4,
 			"length": 4,
@@ -830,19 +820,9 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_encoder_state": {
-			"type": "Uint",
-			"startbyte": 8,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
 		"FR_state": {
 			"type": "Uint",
-			"startbyte": 12,
+			"startbyte": 8,
 			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1195,7 +1175,7 @@
 	},
 	"0x00000185": {
 		"FR_MP55_Measurement": {
-			"type": "Float",
+			"type": "Int",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -1434,7 +1414,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_accumulated_status_vector": {
+		"RL_encoder_state": {
 			"type": "Uint",
 			"startbyte": 4,
 			"length": 4,
@@ -1444,19 +1424,9 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_encoder_state": {
-			"type": "Uint",
-			"startbyte": 8,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
 		"RL_state": {
 			"type": "Uint",
-			"startbyte": 12,
+			"startbyte": 8,
 			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1809,7 +1779,7 @@
 	},
 	"0x00000189": {
 		"RL_MP55_Measurement": {
-			"type": "Float",
+			"type": "Int",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -2048,7 +2018,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_accumulated_status_vector": {
+		"RR_encoder_state": {
 			"type": "Uint",
 			"startbyte": 4,
 			"length": 4,
@@ -2058,19 +2028,9 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_encoder_state": {
-			"type": "Uint",
-			"startbyte": 8,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
 		"RR_state": {
 			"type": "Uint",
-			"startbyte": 12,
+			"startbyte": 8,
 			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
@@ -2423,7 +2383,7 @@
 	},
 	"0x0000018d": {
 		"RR_MP55_Measurement": {
-			"type": "Float",
+			"type": "Int",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.000000,
@@ -2454,59 +2414,59 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		}
-    },
-    "0x622": { 
-        "BMS_Tractive_System_Voltage": { 
-          "type": "Uint", 
-          "startbyte": 0, 
-          "length": 2, 
-          "factor": 0.1, 
-          "displayname": "", 
-          "unit": "", 
-          "expectedmin": 0.0, 
-          "expectedmax": 0.0 
-        }, 
-        "BMS_Tractive_System_Current": { 
-          "type": "Int", 
-          "startbyte": 2, 
-          "length": 2, 
-          "factor": 0.1, 
-          "displayname": "", 
-          "unit": "", 
-          "expectedmin": 0.0, 
-          "expectedmax": 0.0 
-        }, 
-        "BMS_Tractive_System_Current_Transient": { 
-          "type": "Int", 
-          "startbyte": 4, 
-          "length": 2, 
-          "factor": 0.1, 
-          "displayname": "", 
-          "unit": "", 
-          "expectedmin": 0.0, 
-          "expectedmax": 0.0 
-        }, 
-        "BMS_State_of_Charge": { 
-          "type": "Uint", 
-          "startbyte": 6, 
-          "length": 2, 
-          "factor": 0.01, 
-          "displayname": "", 
-          "unit": "", 
-          "expectedmin": 0.0, 
-          "expectedmax": 0.0 
-        } 
-      },
-      "0x624": { 
-        "BMS_State": { 
-          "type": "Uint", 
-          "startbyte": 0, 
-          "length": 1, 
-          "factor": 1.0, 
-          "displayname": "", 
-          "unit": "", 
-          "expectedmin": 0.0, 
-          "expectedmax": 0.0 
-        } 
-      },
+	},
+	"0x622": {
+		"BMS_Tractive_System_Voltage": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"BMS_Tractive_System_Current": {
+			"type": "Int",
+			"startbyte": 2,
+			"length": 2,
+			"factor": 0.1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"BMS_Tractive_System_Current_Transient": {
+			"type": "Int",
+			"startbyte": 4,
+			"length": 2,
+			"factor": 0.1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"BMS_State_of_Charge": {
+			"type": "Uint",
+			"startbyte": 6,
+			"length": 2,
+			"factor": 0.01,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
+	"0x624": {
+		"BMS_State": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	}
 }
