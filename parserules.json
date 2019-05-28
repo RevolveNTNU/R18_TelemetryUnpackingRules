@@ -1,171 +1,169 @@
 {
 	"0x170": {
-"FL_CTRL_msg": {
-"type": "Uint",
-"startbyte": 0,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FL_CTRL_msg": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FL_speed_request": {
-"type": "Float",
-"startbyte": 4,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FL_speed_request": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FL_torque_max_limit": {
-"type": "Float",
-"startbyte": 8,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FL_torque_max_limit": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
+		"FL_torque_min_limit": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FL_torque_min_limit": {
-"type": "Float",
-"startbyte": 12,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FR_CTRL_msg": {
+			"type": "Uint",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FR_CTRL_msg": {
-"type": "Uint",
-"startbyte": 16,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FR_speed_request": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FR_speed_request": {
-"type": "Float",
-"startbyte": 20,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FR_torque_max_limit": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FR_torque_max_limit": {
-"type": "Float",
-"startbyte": 24,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"FR_torque_min_limit": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"FR_torque_min_limit": {
-"type": "Float",
-"startbyte": 28,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RL_CTRL_msg": {
+			"type": "Uint",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"RL_CTRL_msg": {
-"type": "Uint",
-"startbyte": 32,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RL_speed_request": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"RL_speed_request": {
-"type": "Float",
-"startbyte": 36,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RL_torque_max_limit": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"RL_torque_max_limit": {
-"type": "Float",
-"startbyte": 40,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RL_torque_min_limit": {
+			"type": "Float",
+			"startbyte": 44,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
+		"RR_CTRL_msg": {
+			"type": "Uint",
+			"startbyte": 48,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"RL_torque_min_limit": {
-"type": "Float",
-"startbyte": 44,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RR_speed_request": {
+			"type": "Float",
+			"startbyte": 52,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
-"RR_CTRL_msg": {
-"type": "Uint",
-"startbyte": 48,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-
-"RR_speed_request": {
-"type": "Float",
-"startbyte": 52,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
-
-"RR_torque_max_limit": {
-"type": "Float",
-"startbyte": 56,
-"length": 4,
-"factor": 1,
-"displayname": "",
-"unit": "",
-"expectedmin": 0.0,
-"expectedmax": 100
-},
+		"RR_torque_max_limit": {
+			"type": "Float",
+			"startbyte": 56,
+			"length": 4,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 100
+		},
 
 		"RR_torque_min_limit": {
 			"type": "Float",
@@ -176,9 +174,8 @@
 			"unit": "",
 			"expectedmin": 0.0,
 			"expectedmax": 100
-}
-
-},
+		}
+	},
 	"0x00000270": {
 		"FL_encoder_angle": {
 			"type": "Float",
