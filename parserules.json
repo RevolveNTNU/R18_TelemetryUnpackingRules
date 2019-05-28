@@ -220,7 +220,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_encoder_angle_no_fudge": {
+		"FL_encoder_psi_s_pu": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -230,9 +230,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_encoder_angle_raw_position": {
+		"FL_encoder_epsilon": {
 			"type": "Float",
 			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_encoder_i_dref_opt_pu": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_encoder_i_dref_fw_pu": {
+			"type": "Float",
+			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -824,7 +844,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_encoder_angle_no_fudge": {
+		"FR_encoder_psi_s_pu": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -834,9 +854,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_encoder_angle_raw_position": {
+		"FR_encoder_epsilon": {
 			"type": "Float",
 			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_encoder_i_dref_opt_pu": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_encoder_i_dref_fw_pu": {
+			"type": "Float",
+			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1428,7 +1468,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_encoder_angle_no_fudge": {
+		"RL_encoder_psi_s_pu": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -1438,9 +1478,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_encoder_angle_raw_position": {
+		"RL_encoder_epsilon": {
 			"type": "Float",
 			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_encoder_i_dref_opt_pu": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_encoder_i_dref_fw_pu": {
+			"type": "Float",
+			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -2032,7 +2092,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_encoder_angle_no_fudge": {
+		"RR_encoder_psi_s_pu": {
 			"type": "Float",
 			"startbyte": 16,
 			"length": 4,
@@ -2042,9 +2102,29 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_encoder_angle_raw_position": {
+		"RR_encoder_epsilon": {
 			"type": "Float",
 			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_encoder_i_dref_opt_pu": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_encoder_i_dref_fw_pu": {
+			"type": "Float",
+			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
