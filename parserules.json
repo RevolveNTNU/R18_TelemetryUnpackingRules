@@ -18,30 +18,30 @@
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 20000
 		},
 
 		"FL_torque_max_limit": {
 			"type": "Uint",
 			"startbyte": 4,
 			"length": 2,
-			"factor": 1,
+			"factor": 0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 30
 		},
 
 		"FL_torque_min_limit": {
 			"type": "Uint",
 			"startbyte": 6,
 			"length": 2,
-			"factor": 1,
+			"factor": -0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": -30,
+			"expectedmax": 0
 		},
 
 		"FR_CTRL_msg": {
@@ -62,30 +62,30 @@
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 20000
 		},
 
 		"FR_torque_max_limit": {
 			"type": "Uint",
 			"startbyte": 12,
 			"length": 2,
-			"factor": 1,
+			"factor": 0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 30
 		},
 
 		"FR_torque_min_limit": {
 			"type": "Uint",
 			"startbyte": 14,
 			"length": 2,
-			"factor": 1,
+			"factor": -0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": -30,
+			"expectedmax": 0
 		},
 
 		"RL_CTRL_msg": {
@@ -106,30 +106,30 @@
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 20000
 		},
 
 		"RL_torque_max_limit": {
 			"type": "Uint",
 			"startbyte": 20,
 			"length": 2,
-			"factor": 1,
+			"factor": 0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 30
 		},
 
 		"RL_torque_min_limit": {
 			"type": "Uint",
 			"startbyte": 22,
 			"length": 2,
-			"factor": 1,
+			"factor": -0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": -30,
+			"expectedmax": 0
 		},
 
 		"RR_CTRL_msg": {
@@ -150,30 +150,30 @@
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 20000
 		},
 
 		"RR_torque_max_limit": {
 			"type": "Uint",
 			"startbyte": 28,
 			"length": 2,
-			"factor": 1,
+			"factor": 0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": 0,
+			"expectedmax": 30
 		},
 
 		"RR_torque_min_limit": {
 			"type": "Uint",
 			"startbyte": 30,
 			"length": 2,
-			"factor": 1,
+			"factor": -0.01,
 			"displayname": "",
 			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 100
+			"expectedmin": -30,
+			"expectedmax": 0
 		}
 	},
 	"0x00000270": {
