@@ -3,7 +3,7 @@
 		"FL_CTRL_msg": {
 			"type": "Uint",
 			"startbyte": 0,
-			"length": 4,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -12,9 +12,9 @@
 		},
 
 		"FL_speed_request": {
-			"type": "Float",
-			"startbyte": 4,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 2,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -23,9 +23,9 @@
 		},
 
 		"FL_torque_max_limit": {
-			"type": "Float",
-			"startbyte": 8,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 4,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -34,9 +34,9 @@
 		},
 
 		"FL_torque_min_limit": {
-			"type": "Float",
-			"startbyte": 12,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 6,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -46,8 +46,8 @@
 
 		"FR_CTRL_msg": {
 			"type": "Uint",
-			"startbyte": 16,
-			"length": 4,
+			"startbyte": 8,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -56,9 +56,9 @@
 		},
 
 		"FR_speed_request": {
-			"type": "Float",
-			"startbyte": 20,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 10,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -67,9 +67,9 @@
 		},
 
 		"FR_torque_max_limit": {
-			"type": "Float",
-			"startbyte": 24,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 12,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -78,9 +78,9 @@
 		},
 
 		"FR_torque_min_limit": {
-			"type": "Float",
-			"startbyte": 28,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 14,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -90,8 +90,8 @@
 
 		"RL_CTRL_msg": {
 			"type": "Uint",
-			"startbyte": 32,
-			"length": 4,
+			"startbyte": 16,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -100,9 +100,9 @@
 		},
 
 		"RL_speed_request": {
-			"type": "Float",
-			"startbyte": 36,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 18,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -111,9 +111,9 @@
 		},
 
 		"RL_torque_max_limit": {
-			"type": "Float",
-			"startbyte": 40,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 20,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -122,9 +122,9 @@
 		},
 
 		"RL_torque_min_limit": {
-			"type": "Float",
-			"startbyte": 44,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 22,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -134,8 +134,8 @@
 
 		"RR_CTRL_msg": {
 			"type": "Uint",
-			"startbyte": 48,
-			"length": 4,
+			"startbyte": 24,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -144,9 +144,9 @@
 		},
 
 		"RR_speed_request": {
-			"type": "Float",
-			"startbyte": 52,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 26,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -155,9 +155,9 @@
 		},
 
 		"RR_torque_max_limit": {
-			"type": "Float",
-			"startbyte": 56,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 28,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -166,9 +166,9 @@
 		},
 
 		"RR_torque_min_limit": {
-			"type": "Float",
-			"startbyte": 60,
-			"length": 4,
+			"type": "Uint",
+			"startbyte": 30,
+			"length": 2,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
