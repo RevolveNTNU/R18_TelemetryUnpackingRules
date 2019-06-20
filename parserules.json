@@ -216,46 +216,6 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
-		},
-		"FL_encoder_psi_s_pu": {
-			"type": "Float",
-			"startbyte": 16,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_encoder_epsilon": {
-			"type": "Float",
-			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_encoder_i_dref_opt_pu": {
-			"type": "Float",
-			"startbyte": 24,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_encoder_i_dref_fw_pu": {
-			"type": "Float",
-			"startbyte": 28,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
 		}
 	},
 	"0x00000271": {
@@ -834,46 +794,6 @@
 		"FR_applied_torque_measurement_avg": {
 			"type": "Float",
 			"startbyte": 12,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_encoder_psi_s_pu": {
-			"type": "Float",
-			"startbyte": 16,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_encoder_epsilon": {
-			"type": "Float",
-			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_encoder_i_dref_opt_pu": {
-			"type": "Float",
-			"startbyte": 24,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_encoder_i_dref_fw_pu": {
-			"type": "Float",
-			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1464,46 +1384,6 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
-		},
-		"RL_encoder_psi_s_pu": {
-			"type": "Float",
-			"startbyte": 16,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_encoder_epsilon": {
-			"type": "Float",
-			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_encoder_i_dref_opt_pu": {
-			"type": "Float",
-			"startbyte": 24,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_encoder_i_dref_fw_pu": {
-			"type": "Float",
-			"startbyte": 28,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
 		}
 	},
 	"0x00000279": {
@@ -2082,46 +1962,6 @@
 		"RR_applied_torque_measurement_avg": {
 			"type": "Float",
 			"startbyte": 12,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_encoder_psi_s_pu": {
-			"type": "Float",
-			"startbyte": 16,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_encoder_epsilon": {
-			"type": "Float",
-			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_encoder_i_dref_opt_pu": {
-			"type": "Float",
-			"startbyte": 24,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_encoder_i_dref_fw_pu": {
-			"type": "Float",
-			"startbyte": 28,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
