@@ -18,8 +18,7 @@
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
-			"expected
-			min": 0,
+			"expectedmin": 0,
 			"expectedmax": 20000
 		},
 
@@ -346,16 +345,6 @@
 			"type": "Float",
 			"startbyte": 32,
 			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_SDC_closed": {
-			"type": "Uint",
-			"startbyte": 36,
-			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -945,16 +934,6 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
-		},
-		"FR_SDC_closed": {
-			"type": "Uint",
-			"startbyte": 36,
-			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
 		}
 	},
 	"0x00000277": {
@@ -1539,16 +1518,6 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
-		},
-		"RL_SDC_closed": {
-			"type": "Uint",
-			"startbyte": 36,
-			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027b": {
@@ -2128,16 +2097,6 @@
 			"type": "Float",
 			"startbyte": 32,
 			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_SDC_closed": {
-			"type": "Uint",
-			"startbyte": 36,
-			"length": 1,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
