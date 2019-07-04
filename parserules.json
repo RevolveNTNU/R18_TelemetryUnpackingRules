@@ -2565,5 +2565,515 @@
 			"expectedmin": 0.0,
 			"expectedmax": 0.0
 		}
+    },
+    "0x00000370": {
+		"FL_speed_pid_Kp": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_speed_pid_Ki": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_speed_pid_Kd": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_id_pid_Kp": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_id_pid_Ki": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_id_pid_Kd": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_iq_pid_Kp": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_iq_pid_Ki": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_iq_pid_Kd": {
+			"type": "Float",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_entry_speed_factor": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000371": {
+		"Inverter_set_speed_pid_Kp": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_speed_pid_Ki": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_speed_pid_Kd": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_id_pid_Kp": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_id_pid_Ki": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_id_pid_Kd": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_iq_pid_Kp": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_iq_pid_Ki": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_iq_pid_Kd": {
+			"type": "Float",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_entry_speed_factor": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000374": {
+		"FR_speed_pid_Kp": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_speed_pid_Ki": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_speed_pid_Kd": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_id_pid_Kp": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_id_pid_Ki": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_id_pid_Kd": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_iq_pid_Kp": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_iq_pid_Ki": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_iq_pid_Kd": {
+			"type": "Float",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_entry_speed_factor": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000378": {
+		"RL_speed_pid_Kp": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_speed_pid_Ki": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_speed_pid_Kd": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_id_pid_Kp": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_id_pid_Ki": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_id_pid_Kd": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_iq_pid_Kp": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_iq_pid_Ki": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_iq_pid_Kd": {
+			"type": "Float",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_entry_speed_factor": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000037c": {
+		"RR_speed_pid_Kp": {
+			"type": "Float",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_speed_pid_Ki": {
+			"type": "Float",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_speed_pid_Kd": {
+			"type": "Float",
+			"startbyte": 8,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_id_pid_Kp": {
+			"type": "Float",
+			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_id_pid_Ki": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_id_pid_Kd": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_iq_pid_Kp": {
+			"type": "Float",
+			"startbyte": 24,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_iq_pid_Ki": {
+			"type": "Float",
+			"startbyte": 28,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_iq_pid_Kd": {
+			"type": "Float",
+			"startbyte": 32,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_entry_speed_factor": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
 	}
 }
