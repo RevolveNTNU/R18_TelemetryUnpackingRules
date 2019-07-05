@@ -3075,5 +3075,53 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		}
+    },
+    "0x00000051": {
+		"FL_wdt_underflow_occurred": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000055": {
+		"FR_wdt_underflow_occurred": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x00000059": {
+		"RL_wdt_underflow_occurred": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
+	},
+	"0x0000005d": {
+		"RR_wdt_underflow_occurred": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		}
 	}
 }
