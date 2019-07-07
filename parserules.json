@@ -2666,6 +2666,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FL_safety_margin": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000371": {
@@ -2762,6 +2772,16 @@
 		"Inverter_set_entry_speed_factor": {
 			"type": "Float",
 			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"Inverter_set_safety_margin": {
+			"type": "Float",
+			"startbyte": 40,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -2870,6 +2890,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FR_safety_margin": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000378": {
@@ -2966,6 +2996,16 @@
 		"RL_entry_speed_factor": {
 			"type": "Float",
 			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_safety_margin": {
+			"type": "Float",
+			"startbyte": 40,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -3074,8 +3114,18 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RR_safety_margin": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
-    },
+	},
     "0x00000051": {
 		"FL_wdt_underflow_occurred": {
 			"type": "Uint",
