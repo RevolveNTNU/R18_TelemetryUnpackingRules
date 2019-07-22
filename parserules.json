@@ -216,6 +216,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FL_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000271": {
@@ -772,6 +782,16 @@
 		"FR_applied_torque_measurement_avg": {
 			"type": "Float",
 			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1340,6 +1360,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RL_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000279": {
@@ -1896,6 +1926,16 @@
 		"RR_applied_torque_measurement_avg": {
 			"type": "Float",
 			"startbyte": 12,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
