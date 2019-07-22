@@ -360,6 +360,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FL_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000273": {
@@ -387,28 +407,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000200": {
-		"FL_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -932,6 +930,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FR_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000277": {
@@ -959,28 +977,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000204": {
-		"FR_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -1504,6 +1500,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RL_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027b": {
@@ -1531,28 +1547,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000208": {
-		"RL_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -2076,6 +2070,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RR_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027f": {
@@ -2103,28 +2117,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x0000020c": {
-		"RR_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
