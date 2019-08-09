@@ -216,6 +216,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FL_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000271": {
@@ -350,6 +360,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FL_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000273": {
@@ -377,28 +407,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000200": {
-		"FL_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -522,28 +530,6 @@
 		"FL_phase_c_duty_cycle_new": {
 			"type": "Float",
 			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000210": {
-		"FL_setpoint_q_ack": {
-			"type": "Float",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FL_setpoint_d_ack": {
-			"type": "Float",
-			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -800,6 +786,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FR_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000275": {
@@ -934,6 +930,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"FR_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000277": {
@@ -961,28 +977,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000204": {
-		"FR_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -1106,28 +1100,6 @@
 		"FR_phase_c_duty_cycle_new": {
 			"type": "Float",
 			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000214": {
-		"FR_setpoint_q_ack": {
-			"type": "Float",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"FR_setpoint_d_ack": {
-			"type": "Float",
-			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1384,6 +1356,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RL_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x00000279": {
@@ -1518,6 +1500,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RL_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027b": {
@@ -1545,28 +1547,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000208": {
-		"RL_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -1690,28 +1670,6 @@
 		"RL_phase_c_duty_cycle_new": {
 			"type": "Float",
 			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x00000218": {
-		"RL_setpoint_q_ack": {
-			"type": "Float",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RL_setpoint_d_ack": {
-			"type": "Float",
-			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1968,6 +1926,16 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RR_speed_request_internal": {
+			"type": "Float",
+			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027d": {
@@ -2102,6 +2070,26 @@
 			"unit": "",
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
+		},
+		"RR_setpoint_d": {
+			"type": "Float",
+			"startbyte": 36,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_setpoint_q": {
+			"type": "Float",
+			"startbyte": 40,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
 		}
 	},
 	"0x0000027f": {
@@ -2129,28 +2117,6 @@
 			"type": "Uint",
 			"startbyte": 8,
 			"length": 1,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x0000020c": {
-		"RR_setpoint_q": {
-			"type": "Int",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_setpoint_d": {
-			"type": "Int",
-			"startbyte": 4,
-			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
 			"unit": "",
@@ -2274,28 +2240,6 @@
 		"RR_phase_c_duty_cycle_new": {
 			"type": "Float",
 			"startbyte": 20,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		}
-	},
-	"0x0000021c": {
-		"RR_setpoint_q_ack": {
-			"type": "Float",
-			"startbyte": 0,
-			"length": 4,
-			"factor": 1.000000,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.000000,
-			"expectedmax": 0.000000
-		},
-		"RR_setpoint_d_ack": {
-			"type": "Float",
-			"startbyte": 4,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
