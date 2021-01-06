@@ -11450,5 +11450,17 @@
 			"expectedmin": 0.0,
 			"expectedmax": 1
 		}
+	},
+	"0x523": {
+		"EPOS_POSITION_SETPOINT": {
+			"type": "int",
+			"startbyte": 2,
+			"length": 4,
+			"factor": 0.01355433072,
+			"displayname": "EPOS position setpoint",
+			"unit": "deg",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
 	}
 }
