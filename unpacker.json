@@ -11413,7 +11413,17 @@
 		"DV_ACU_SYSTEM_STATUS":{
 			"type": "Uint",
 			"startbyte": 0,
-			"length": 5,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DV_ACU_SYSTEM_STATUS_2":{
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
@@ -11461,7 +11471,7 @@
 		"DV_VCU_STATUS": {
 			"type": "Uint",
 			"startbyte": 0,
-			"length": 6,
+			"length": 4,
 			"factor": 1,
 			"displayname": "",
 			"unit": "",
