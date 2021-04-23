@@ -11450,5 +11450,63 @@
 			"expectedmin": 0.0,
 			"expectedmax": 1
 		}
+	},
+	"0x504": { 
+		"DV_ACU_SYSTEM_STATUS":{
+			"type": "unit",
+			"startbyte": 0,
+			"length": 5,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
+	"0x52D": {
+		"DV_ACU_SDC_is_ready": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x52E": {
+		"DV_ACU_ASMS_is_on": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x52F": {
+		"DV_ACU_EBS_operational": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+	},
+	"0x35C": {
+		"DV_VCU_STATUS": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 6,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
 	}
 }
