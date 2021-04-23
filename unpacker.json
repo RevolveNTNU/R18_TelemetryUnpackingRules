@@ -11497,6 +11497,7 @@
 			"unit": "",
 			"expectedmin": 0,
 			"expectedmax": 0
+		}
 	},
 	"0x35C": {
 		"DV_VCU_STATUS": {
@@ -11508,5 +11509,6 @@
 			"unit": "",
 			"expectedmin": 0,
 			"expectedmax": 0
+		}
 	}
 }
