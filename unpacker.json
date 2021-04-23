@@ -11453,7 +11453,7 @@
 	},
 	"0x504": { 
 		"DV_ACU_SYSTEM_STATUS":{
-			"type": "unit",
+			"type": "Uint",
 			"startbyte": 0,
 			"length": 5,
 			"factor": 1,
