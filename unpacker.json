@@ -6586,42 +6586,22 @@
 		}
 	},
 	"0x42E": {
-		"ADC_REAR_DamperRL": {
-			"type": "Uint",
+		"EBS_Pneumatic_Pressure": {
+			"type": "Int",
 			"startbyte": 0,
 			"length": 2,
 			"factor": 0.01,
-			"displayname": "",
+			"displayname": "EBS_Pneumatic_Pressure",
 			"unit": "",
 			"expectedmin": 0.0,
 			"expectedmax": 0.0
 		},
-		"ADC_REAR_DamperRateRL": {
+		"SB_Pneumatic_Pressure": {
 			"type": "Int",
 			"startbyte": 2,
 			"length": 2,
-			"factor": 1.0,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 0.0
-		},
-		"ADC_REAR_DamperRR": {
-			"type": "Uint",
-			"startbyte": 4,
-			"length": 2,
 			"factor": 0.01,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0.0,
-			"expectedmax": 0.0
-		},
-		"ADC_REAR_DamperRateRR": {
-			"type": "Int",
-			"startbyte": 6,
-			"length": 2,
-			"factor": 1.0,
-			"displayname": "",
+			"displayname": "EBS_Pneumatic_Pressure",
 			"unit": "",
 			"expectedmin": 0.0,
 			"expectedmax": 0.0
