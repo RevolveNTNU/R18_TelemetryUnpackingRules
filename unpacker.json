@@ -11480,5 +11480,27 @@
 			"expectedmin": 0,
 			"expectedmax": 0
 		}
+	},
+	"0x481": {
+		"EPOS_actualPosition": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 4,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"EPOS_targetPosition": {
+			"type": "Uint",
+			"startbyte": 4,
+			"length": 4,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
 	}
 }
