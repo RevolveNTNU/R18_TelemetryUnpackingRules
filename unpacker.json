@@ -11459,31 +11459,9 @@
 			"expectedmax": 0
 		}
 	},
-	"0x513": {
-		"A0_EBS_pneumatic_pressure_Sensor": {
-			"type": "Float",
-			"startbyte": 0,
-			"length": 2,
-			"factor": 0.01,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0,
-			"expectedmax": 0
-		},
-		"A1_SB_pneumatic_pressure_Sensor": {
-			"type": "Float",
-			"startbyte": 2,
-			"length": 2,
-			"factor": 0.01,
-			"displayname": "",
-			"unit": "",
-			"expectedmin": 0,
-			"expectedmax": 0
-		}
-	},
 	"0x481": {
 		"EPOS_actualPosition": {
-			"type": "Uint",
+			"type": "Int",
 			"startbyte": 0,
 			"length": 4,
 			"factor": 1.0,
@@ -11493,8 +11471,20 @@
 			"expectedmax": 0
 		},
 		"EPOS_targetPosition": {
-			"type": "Uint",
+			"type": "Int",
 			"startbyte": 4,
+			"length": 4,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x523": {
+		"EPOS_referencePos": {
+			"type": "Int",
+			"startbyte": 2,
 			"length": 4,
 			"factor": 1.0,
 			"displayname": "",
