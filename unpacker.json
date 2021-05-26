@@ -11389,8 +11389,8 @@
 			"expectedmax": 1
 		}
 	},
-	"0x504": { 
-		"DV_ACU_SYSTEM_STATUS":{
+	"0x504": {
+		"DV_ACU_SYSTEM_STATUS": {
 			"type": "Uint",
 			"startbyte": 0,
 			"length": 1,
@@ -11400,7 +11400,7 @@
 			"expectedmin": 0.0,
 			"expectedmax": 0.0
 		},
-		"DV_ACU_SYSTEM_STATUS_2":{
+		"DV_ACU_SYSTEM_STATUS_2": {
 			"type": "Uint",
 			"startbyte": 0,
 			"length": 1,
@@ -11486,6 +11486,114 @@
 			"type": "Int",
 			"startbyte": 2,
 			"length": 4,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x18A": {
+		"PU_TORQUE_SETPOINT_FL": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_TORQUE_SETPOINT_FR": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_TORQUE_SETPOINT_RL": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_TORQUE_SETPOINT_RR": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x18B": {
+		"PU_RPM_SETPOINT_FL": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_RPM_SETPOINT_FR": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_RPM_SETPOINT_RL": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		},
+		"PU_RPM_SETPOINT_RR": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.009800078400627205,
+			"displayname": "",
+			"unit": "Nm",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x18C": {
+		"PU_STEERING_SETPOINT": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.000025,
+			"displayname": "",
+			"unit": "rad",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
+	"0x5B0": {
+		"PU_MISSION_FINISHED": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
 			"factor": 1.0,
 			"displayname": "",
 			"unit": "",
