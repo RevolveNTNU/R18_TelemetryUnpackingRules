@@ -11411,6 +11411,120 @@
 			"expectedmax": 0.0
 		}
 	},
+	"0x500": {
+		"DL_Speed_actual": {
+			"type": "Uint",
+			"startbyte": 0,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Speed_target": {
+			"type": "Uint",
+			"startbyte": 1,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Steering_angle_actual": {
+			"type": "Int",
+			"startbyte": 2,
+			"length": 1,
+			"factor": 0.5,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Steering_angle_target": {
+			"type": "Int",
+			"startbyte": 3,
+			"length": 1,
+			"factor": 0.5,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Brake_hydr_actual": {
+			"type": "Uint",
+			"startbyte": 4,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Brake_hydr_target": {
+			"type": "Uint",
+			"startbyte": 5,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Motor_moment_actual": {
+			"type": "Int",
+			"startbyte": 6,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Motor_moment_target": {
+			"type": "Int",
+			"startbyte": 7,
+			"length": 1,
+			"factor": 1,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
+	"0x501": {
+		"DL_Acceleration_longitudinal": {
+			"type": "Int",
+			"startbyte": 0,
+			"length": 2,
+			"factor": 0.001953125,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Acceleration_lateral": {
+			"type": "Int",
+			"startbyte": 2,
+			"length": 2,
+			"factor": 0.001953125,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		},
+		"DL_Yaw_rate": {
+			"type": "Int",
+			"startbyte": 4,
+			"length": 2,
+			"factor": 0.0078125,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.0,
+			"expectedmax": 0.0
+		}
+	},
 	"0x52D": {
 		"DV_ACU_SDC_is_ready": {
 			"type": "Uint",
