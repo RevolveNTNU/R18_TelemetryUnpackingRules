@@ -11595,6 +11595,18 @@
 			"expectedmax": 0
 		}
 	},
+  "0x542": {
+		"EPOS_torque": {
+			"type": "Int",
+			"startbyte": 3,
+			"length": 2,
+			"factor": 1.0,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0,
+			"expectedmax": 0
+		}
+	},
 	"0x543": {
 		"EPOS_statusWord": {
 			"type": "Int",
