@@ -508,7 +508,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FL_speed_rpm_derivative": {
+		"FL_torque_request_used": {
 			"type": "Float",
 			"startbyte": 8,
 			"length": 4,
@@ -531,6 +531,26 @@
 		"FL_speed_request_internal": {
 			"type": "Float",
 			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_reference_angle": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FL_angle_offset": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1078,7 +1098,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"FR_speed_rpm_derivative": {
+		"FR_torque_request_used": {
 			"type": "Float",
 			"startbyte": 8,
 			"length": 4,
@@ -1101,6 +1121,26 @@
 		"FR_speed_request_internal": {
 			"type": "Float",
 			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_reference_angle": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"FR_angle_offset": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -1648,7 +1688,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RL_speed_rpm_derivative": {
+		"RL_torque_request_used": {
 			"type": "Float",
 			"startbyte": 8,
 			"length": 4,
@@ -1671,6 +1711,26 @@
 		"RL_speed_request_internal": {
 			"type": "Float",
 			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_reference_angle": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RL_angle_offset": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
@@ -2218,7 +2278,7 @@
 			"expectedmin": 0.000000,
 			"expectedmax": 0.000000
 		},
-		"RR_speed_rpm_derivative": {
+		"RR_torque_request_used": {
 			"type": "Float",
 			"startbyte": 8,
 			"length": 4,
@@ -2241,6 +2301,26 @@
 		"RR_speed_request_internal": {
 			"type": "Float",
 			"startbyte": 16,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_reference_angle": {
+			"type": "Float",
+			"startbyte": 20,
+			"length": 4,
+			"factor": 1.000000,
+			"displayname": "",
+			"unit": "",
+			"expectedmin": 0.000000,
+			"expectedmax": 0.000000
+		},
+		"RR_angle_offset": {
+			"type": "Float",
+			"startbyte": 24,
 			"length": 4,
 			"factor": 1.000000,
 			"displayname": "",
